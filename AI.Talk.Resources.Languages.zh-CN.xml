@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LanguageResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Languages -->
+  <Item Key="LanguageName" Value="中文" />
+  <Item Key="LanguageNameEnglish" Value="Chinese" />
+
+  <Item Key="SamplesPerSecUnit" Value="Hz" />
+  <Item Key="BitDepthUnit" Value="bit" />
+  <Item Key="BitsPerSecondUnit" Value="bps" />
+
+  <!-- Message -->
+
+  <Item Key="MessageExceptionUnknownError" Value="发生原因不明的错误。" />
+  <Item Key="MessageExceptionEngineNotInitialized" Value="语音合成引擎未初始化。" />
+  <Item Key="MessageExceptionEngineInitialized" Value="语音合成引擎正在初始化。" />
+  <Item Key="MessageExceptionVoiceDicDirNotExists" Value="声库文件目录不存在。" />
+  <Item Key="MessageExceptionRunningSynthesisProcess" Value="正在执行语音合成处理。" />
+
+  <Item Key="MessageExceptionCantGetLicenseInfo" Value="无法获取许可证信息。" />
+  <Item Key="MessageExceptionCantGetLicenseDate" Value="无法获得许可到期时间。" />
+
+  <Item Key="MessageExceptionLangDicDirNotExists" Value="语言文件目录不存在。" />
+
+  <Item Key="MessageExceptionNotAcceptEmptyText" Value="文本不能为空字符串。" />
+
+  <Item Key="MessageExceptionArrayIsNull" Value="array 是 null 。" />
+  <Item Key="MessageExceptionNegativeArrayIndex" Value="arrayIndex 小于 0。" />
+  <Item Key="MessageExceptionCapacityOver" Value="从arrayIndex到目标array末尾，复制源集合的元素数超过了可以存储的数量。" />
+
+  <Item Key="MessageExceptionUserDicKansaiOnly" Value="不能使用关西腔以外的用户词典。" />
+  <Item Key="MessageExceptionUserDicStandardOnly" Value="不能使用标准语(日语)以外的用户词典。" />
+
+  <Item Key="MessageExceptionUserDicIncorrectFormat" Value="用户字典格式不正确。" />
+
+  <Item Key="MessageExceptionUserPhraseDicIncorrectFormat" Value="词组字典格式不正确。" />
+  <Item Key="MessageExceptionUserPhraseDicConstructorNotDefined" Value="未定义构造函数。" />
+
+  <Item Key="MessageExceptionUserSymbolDicIncorrectFormat" Value="停顿记号字典格式不正确。" />
+  <Item Key="MessageExceptionUserSymbolDicConstructorNotDefined" Value="未定义构造函数。" />
+
+  <Item Key="MessageExceptionUserWordDicIncorrectAccent" Value="语调(重音)信息不正确。" />
+  <Item Key="MessageExceptionUserWordDicIncorrectRiseFallMora" Value="升调(上升核)、降调(下降核)、音拍数未正确指定。" />
+  <Item Key="MessageExceptionUserWordDicIncorrectFormat" Value="单词字典格式不正确。" />
+  <Item Key="MessageExceptionEnglishUserWordDicIncorrectFormat" Value="单词字典（英语）格式不正确。" /><!-- 追加 -->
+  <Item Key="MessageExceptionChineseUserWordDicIncorrectFormat" Value="单词字典（中文）格式不正确。" />
+  <Item Key="MessageExceptionChineseUserWordDicTitleEmpty" Value="未输入标题" />
+  <Item Key="MessageExceptionChineseUserWordDicTitleUnusableChar" Value="标题中包含不可用的字符。" />
+  <Item Key="MessageExceptionChineseUserWordDicPronunciationEmpty" Value="未输入读音" />
+  <Item Key="MessageExceptionChineseUserWordDicPinYinInvalid" Value="音高的值不正确" />
+  <Item Key="MessageExceptionChineseUserWordDicFourTonesInvalid" Value="四声的值不正确" />
+  <Item Key="MessageExceptionChineseUserWordDicPartOfSpeechInvalid" Value="词性的值不正确" />
+  <Item Key="MessageExceptionChineseUserWordDicPriorityInvalid" Value="优先度的值不正确" />
+
+  <Item Key="MessageExceptionVoiceDicNotExists" Value="指定路径中不存在声库。" />
+  <Item Key="MessageExceptionVoiceDicInfoNotFound" Value="找不到声库信息。" />
+  <Item Key="MessageExceptionFailedToGetVoiceDicInfo" Value="无法获取声库信息。" />
+  <Item Key="MessageExceptionVoiceDicCantReadPartially" Value="无法读取声库中的某些信息。" />
+  <Item Key="MessageExceptionVoiceDicIncorrectContents" Value="声库字典的内容不正确。文件可能已损坏或更改。" />
+  <Item Key="MessageExceptionVoiceDicIncorrectFormat" Value="声库字典格式不正确。" />
+  <Item Key="MessageExceptionVoiceDicNotAuthenticated" Value="声库未激活。" />
+
+  <Item Key="MessageExceptionVoiceImageNotAccept0OrLess" Value="值不能小于0。" />
+  <Item Key="MessageExceptionVoiceImageNotAcceptLessThanMinimumInterval" Value="不能指定小于最小间隔的值。" />
+  <Item Key="MessageExceptionVoiceImageNotAcceptLessThan100" Value="不能指定小于100的值。" />
+  <Item Key="MessageExceptionVoiceImageNotAcceptGreaterThanMaximumInterval" Value="不能指定大于最大间隔的值" />
+  <Item Key="MessageExceptionVoiceImageMustBetween0And100" Value="请在0到100的范围内设定值。" />
+
+  <Item Key="MessageAITALKERR_ALREADY_INITIALIZED" Value="语音合成引擎已初始化。" />
+  <Item Key="MessageAITALKERR_ALREADY_LOADED" Value="aitalk已加载。" />
+  <Item Key="MessageAITALKERR_FILE_NOT_FOUND" Value="找不到文件" />
+  <Item Key="MessageAITALKERR_INSUFFICIENT" Value="缓存区大小不足" />
+  <Item Key="MessageAITALKERR_INTERNAL_ERROR" Value="发生内部错误" />
+  <Item Key="MessageAITALKERR_INVALID_ARGUMENT" Value="指定了无效的参数" />
+  <Item Key="MessageAITALKERR_INVALID_JOBID" Value="指定的工作ID无效。" />
+  <Item Key="MessageAITALKERR_LICENSE_ABSENT" Value="没有许可证信息。" />
+  <Item Key="MessageAITALKERR_LICENSE_EXPIRED" Value="许可证到期" />
+  <Item Key="MessageAITALKERR_LICENSE_REJECTED" Value="没有许可证。" />
+  <Item Key="MessageAITALKERR_NOMORE_DATA" Value="不会返回更多的结果。" />
+  <Item Key="MessageAITALKERR_NOT_INITIALIZED" Value="语音合成引擎未初始化。" />
+  <Item Key="MessageAITALKERR_NOT_LOADED" Value="语音合成引擎未加载" />
+  <Item Key="MessageAITALKERR_PARTIALLY_REGISTERED" Value="部分参数不反映。" />
+  <Item Key="MessageAITALKERR_PATH_NOT_FOUND" Value="找不到路径。" />
+  <Item Key="MessageAITALKERR_READ_FAULT" Value="文件格式错误" />
+  <Item Key="MessageAITALKERR_TOO_MANY_JOBS" Value="执行工作太多。" />
+  <Item Key="MessageAITALKERR_UNSUPPORTED" Value="不支持此函数。" />
+  <Item Key="MessageAITALKERR_USERDIC_LOCKED" Value="用户词典正在使用中。" />
+  <Item Key="MessageAITALKERR_USERDIC_NOENTRY" Value="用户词典中没有有效条目。" />
+  <Item Key="MessageAITALKERR_WAIT_TIMEOUT" Value="等待时间超时" />
+  <Item Key="MessageAIAUDIOERR_ALREADY_OPENED" Value="音频设备已初始化。" />
+  <Item Key="MessageAIAUDIOERR_DEVICE_INVALIDATED" Value="音频设备无法使用。" />
+  <Item Key="MessageAIAUDIOERR_INTERNAL_ERROR" Value="发生原因不明的错误。" />
+  <Item Key="MessageAIAUDIOERR_INVALID_ARGUMENT" Value="指定的参数无效。" />
+  <Item Key="MessageAIAUDIOERR_INVALID_CALL" Value="无效的调用。" />
+  <Item Key="MessageAIAUDIOERR_INVALID_EVENT_ORDINAL" Value="传递事件的顺序不正确。" />
+  <Item Key="MessageAIAUDIOERR_NO_AUDIO_HARDWARE" Value="音频设备不可用。" />
+  <Item Key="MessageAIAUDIOERR_NO_NOTIFICATION_CALLBACK" Value="没有回调通知。" />
+  <Item Key="MessageAIAUDIOERR_NO_PLAYING" Value="播放未进行。" />
+  <Item Key="MessageAIAUDIOERR_NOT_INITIALIZED" Value="音频设备未初始化。" />
+  <Item Key="MessageAIAUDIOERR_NOT_OPENED" Value="音频设备未准备就绪。" />
+  <Item Key="MessageAIAUDIOERR_OUT_OF_MEMORY" Value="内存空间不足。" />
+  <Item Key="MessageAIAUDIOERR_UNSUPPORTED" Value="不支持此函数。" />
+  <Item Key="MessageAIAUDIOERR_WAIT_TIMEOUT" Value="等待时间超时" />
+  <Item Key="MessageAIAUDIOERR_WRITE_FAULT" Value="无法写入指定路径。" />
+  
+  <Item Key="MessageExceptionAudioCodecLinearPCMOnly8Or16Bit" Value="不支持16 bit及8 bit以外的线性PCM。" />
+  <Item Key="MessageExceptionAudioCodecMuLawPCMOnly8Bit" Value="不支持8bit以外的μ-law PCM。" />
+  <Item Key="MessageExceptionAudioCodecALawPCMOnly8Bit" Value="不支持8bit以外的A-law PCM。" />
+  <Item Key="MessageExceptionAudioCodecADPCMNotSupport" Value="不支持ADPCM。" />
+  <Item Key="MessageExceptionAudioCodecUnknowPCMFormat" Value="指定了未知的PCM方式。" />
+
+  <Item Key="MessageExceptionCantExecuteJobNotIdle" Value="无法执行不处于空闲状态的新进程。" />
+  <Item Key="MessageExceptionInvalidUnit" Value="指定了预期外的单元。" />
+
+  <Item Key="MessageExceptionAccentNoMoras" Value="不能为不存在拍子的重音子句指定重音。" />
+  <Item Key="MessageExceptionAccentRiseMust0AndOverAndMorasOrLess" Value="上升核的位置必须是0以上且拍子数以下的值。" />
+  <Item Key="MessageExceptionAccentFallMust0AndOverAndLessThanMoras" Value="下降核的位置必须是0以上且拍子数以下的值。" />
+  <Item Key="MessageExceptionAccentFallMustBehindRise" Value="下降核必须位于上升核后面的位置。" />
+
+  <Item Key="MessageExceptionIncorrectIntermediateLanguageFormat" Value="中间语言格式不正确。" />
+
+  <Item Key="MessageExceptionIncorrectPronunciation" Value="指定的读音不正确题" />
+
+  <Item Key="MessageExceptionTuningScaleFactorTooSmall" Value="尺度因子的值太小" />
+
+
+
+</LanguageResource>
