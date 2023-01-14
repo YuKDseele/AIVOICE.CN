@@ -1,0 +1,31 @@
+AIVOICE.CN (AIVOICE zh-CN Translation Project) binaries (the "patch") are licensed under CC BY-NC-SA 4.0.
+AUTHOR: YuKDseele (x2547268390@gmail.com)
+
+[BY] You should ALWAYS keep this license file and the patch in the same folder. And you should clarify the author when mentioning this patch.
+
+[NC] You can use the patch with a legal copy of AIVOICE(*). However, you can NOT use this patch for commercial purposes (e.g. sell this patch, or provide this patch when selling any software).
+
+[SA] You must use the same LICENSE when you share the modified patch(texts).
+
+Please read CC BY-NC-SA 4.0 LICENSE here: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+(*)AIVOICE is a trademark of AIVOICE(AIVOICE.jp).
+
+---------------------------------------
+
+AIVOICE.CN (AIVOICE汉化补丁) 基于CC BY-NC-SA 4.0协议发布。
+作者：YuKDseele (x2547268390@gmail.com)
+
+[署名] 你应该时刻保持本补丁中文本、文件与LICENSE文件的完整性，并在提及本补丁时注明作者标识。
+
+[非商业性使用] 你可以将此补丁用于正版AIVOICE(*)软件。但是，你不能将此补丁本身用于商业用途（例如贩卖此补丁，或在贩卖软件时提供此补丁等）。
+
+[相同方式共享] 你对文本或文件的任何修改都需要以同样的协议(CC BY-NC-SA)发布。
+
+请务必阅读完整CC BY-NC-SA 4.0协议（若无法访问，请使用代理工具）：https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+
+(*)AIVOICE是AIVOICE公司(AIVOICE.jp)的注册商标。
+
+---------------------------------------
+
+AIVOICE.CN is a project by [YuKDseele](https://github.com/YuKDseele)
