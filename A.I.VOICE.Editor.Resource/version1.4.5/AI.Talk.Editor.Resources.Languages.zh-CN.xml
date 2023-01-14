@@ -1,0 +1,1618 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LanguageResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Languages -->
+  <Item Key="LanguageName" Value="中文" />
+  <Item Key="LanguageNameEnglish" Value="Chinese" />
+
+  <Item Key="Phrase" Value="词组" />
+  <Item Key="PhraseDic" Value="词组字典" />
+  <Item Key="Word" Value="单词" />
+  <Item Key="WordDic" Value="单词字典" />
+  <Item Key="Symbol" Value="停顿记号" />
+  <Item Key="SymbolDic" Value="停顿记号字典" />
+  <Item Key="VoicePreset" Value="声库预设" />
+  <Item Key="VoicePresetDic" Value="声库预设字典" />
+  <Item Key="EnglishWord" Value="单词(英语)" /><!-- 追加 -->
+  <Item Key="EnglishWordDic" Value="单词字典(英语)" /><!-- 追加 -->
+  <Item Key="ChineseWord" Value="单词(中文)" />
+  <Item Key="ChineseWordDic" Value="单词字典(中文)" />
+
+
+  <!-- General -->
+
+  <Item Key="Information" Value="情报" />
+  <Item Key="Warning" Value="警告" />
+  <Item Key="Error" Value="错误" />
+  <Item Key="Confirm" Value="确认" />
+  <Item Key="SameForAll" Value="此后应用相同的选择" />
+
+  <Item Key="SaveAs" Value="另存为" />
+
+  <Item Key="NewVoicePresetNameSuffix" Value=" - 新建" />
+  <Item Key="CopyVoicePresetNameSuffix" Value=" - 复制" />
+
+  <Item Key="NewProject" Value="新建工程" />
+
+  <Item Key="TextEncodingShiftJIS" Value="Shift-JIS (CP932)" />
+  <Item Key="TextEncodingUTF8" Value="UTF-8" />
+  <Item Key="TextEncodingUTF16BE" Value="UTF-16 BE" />
+  <Item Key="TextEncodingUTF16LE" Value="UTF-16 LE" />
+
+  <Item Key="ConverterVoiceDicToMultiAuthenticatedStringAuthenticated" Value="已认证" />
+  <Item Key="ConverterVoiceDicToMultiAuthenticatedStringNotAuthenticated" Value="未认证" />
+
+
+  <!-- MainWindow -->
+
+  <!-- Menu -->
+  <Item Key="MenuFile" Value="文件(_F)" />
+  <Item Key="MenuFileNewText" Value="新建文本(_N)" />
+  <Item Key="MenuFileOpenText" Value="打开文本(_O)..." />
+  <Item Key="MenuFileSaveText" Value="保存文本(_S)" />
+  <Item Key="MenuFileSaveTextAs" Value="文本另存为(_A)..." />
+  <Item Key="MenuFileNewKana" Value="新建假名(_D)" />
+  <Item Key="MenuFileOpenKana" Value="打开假名(_F)..." />
+  <Item Key="MenuFileSaveKana" Value="保存假名(_G)" />
+  <Item Key="MenuFileSaveKanaAs" Value="假名另存为(_H)..." />
+  <Item Key="MenuFileNewProject" Value="新建工程(_P)" />
+  <Item Key="MenuFileOpenProject" Value="打开工程(_L)..." />
+  <Item Key="MenuFileSaveProject" Value="保存工程(_K)" />
+  <Item Key="MenuFileSaveProjectAs" Value="工程另存为(_M)..." />
+  <Item Key="MenuFileExportProject" Value="导出工程(_J)..." />
+  <Item Key="MenuFileRecentProject" Value="最近使用的工程(_Q)" />
+  <Item Key="MenuFileSaveWave" Value="根据文本保存音频文件(_W)..." />
+  <Item Key="MenuFileSaveWaveFromKana" Value="根据假名保存音频文件(_Y)..." />
+  <Item Key="MenuFileImportUserSettings" Value="导入设定(_I)..." />
+  <Item Key="MenuFileExportUserSettings" Value="导出设定(_E)..." />
+  <Item Key="MenuFileRecent" Value="最近打开的文本(_R)" />
+  <Item Key="MenuFileExit" Value="结束(_X)" />
+
+  <Item Key="MenuEdit" Value="编辑(_E)" />
+  <Item Key="MenuEditUndo" Value="撤销(_U)" />
+  <Item Key="MenuEditRedo" Value="重做(_R)" />
+  <Item Key="MenuEditCut" Value="剪切(_T)" />
+  <Item Key="MenuEditCopy" Value="复制(_C)" />
+  <Item Key="MenuEditPaste" Value="粘贴(_P)" />
+  <Item Key="MenuEditDelete" Value="删除(_D)" />
+  <Item Key="MenuEditSelectAll" Value="全选(_A)" />
+
+  <Item Key="MenuText" Value="文本(_X)" />
+  <Item Key="MenuTextPlay" Value="播放(_P)" />
+  <Item Key="MenuTextStop" Value="停止(_S)" />
+  <Item Key="MenuTextTime" Value="计算播放时间(_T)" />
+  <Item Key="MenuTextMoveToBeginning" Value="到文本开头(_B)" />
+  <Item Key="MenuTextMoveToEnd" Value="到文本结尾(_E)" />
+  <Item Key="MenuTextAddVoicePreset" Value="将声库预设分配给文本(_V)" />
+  <Item Key="MenuTextRemoveVoicePreset" Value="取消分配给文本的声库预设(_O)" />
+  <Item Key="MenuTextInsertRuby" Value="插入注音(_Y)" />
+  <Item Key="MenuTextCreateNewWord" Value="编辑单词(_W)" />
+
+  <Item Key="MenuKana" Value="假名(_I)" />
+  <Item Key="MenuKanaGenerate" Value="根据文本生成假名(_G)" />
+  <Item Key="MenuKanaPlay" Value="播放(_P)" />
+  <Item Key="MenuKanaStop" Value="停止(_S)" />
+  <Item Key="MenuKanaTime" Value="计算播放时间(_T)" />
+
+  <Item Key="MenuMaster" Value="全局(_M)" />
+  <Item Key="MenuMasterReset" Value="设定值全部初始化(_I)" />
+  <Item Key="MenuMasterCreateNewSymbol" Value="新建停顿记号(_N)" />
+  <Item Key="MenuMasterEditSymbol" Value="变更停顿记号(_E)" />
+  <Item Key="MenuMasterRemoveSymbol" Value="删除停顿记号(_R)" />
+  <Item Key="MenuMasterSelectAllSymbols" Value="将停顿记号全选(_A)" />
+
+  <Item Key="MenuVoice" Value="声库(_S)" />
+  <Item Key="MenuVoiceCreateNewVoicePreset" Value="新建(_N)..." />
+  <Item Key="MenuVoiceCopyVoicePreset" Value="复制(_C)" />
+  <Item Key="MenuVoiceRemoveVoicePreset" Value="删除(_D)" />
+  <Item Key="MenuVoiceSelectAllVoicePresets" Value="全选(_A)" />
+  <Item Key="MenuVoiceInitializeVoicePresets" Value="初始化所有标准预设(_I)" />
+  <Item Key="MenuVoiceSaveVoicePreset" Value="保存预设设定(_S)" />
+  <Item Key="MenuVoiceLoadVoicePreset" Value="恢复预设设定(_U)" />
+  <Item Key="MenuVoiceResetVoicePreset" Value="初始化预设设定(_R)" />
+
+  <Item Key="MenuPhrase" Value="词组(_P)" />
+  <Item Key="MenuPhrasePlay" Value="播放(_P)" />
+  <Item Key="MenuPhraseStop" Value="停止(_S)" />
+  <Item Key="MenuPhraseAdd" Value="注册(_A)" />
+  <Item Key="MenuPhraseRemove" Value="删除(_R)" />
+  <Item Key="MenuPhraseList" Value="列表(_L)" />
+  <Item Key="MenuPhraseRewind" Value="恢复(_U)" />
+  <Item Key="MenuPhraseRemovePause" Value="删除停顿(_C)" />
+  <Item Key="MenuPhraseChangePhraseAccent" Value="转换为标准语(_D)" />
+
+  <Item Key="MenuWord" Value="单词(_W)" />
+  <Item Key="MenuWordPlay" Value="播放(_P)" />
+  <Item Key="MenuWordStop" Value="停止(_S)" />
+  <Item Key="MenuWordAdd" Value="注册(_A)" />
+  <Item Key="MenuWordRemove" Value="删除(_R)" />
+  <Item Key="MenuWordList" Value="列表(_L)" />
+  <Item Key="MenuWordClear" Value="清空当前输入值(_C)" />
+  <Item Key="MenuWordChangeWordAccent" Value="转换为标准语(_D)" />
+
+  <Item Key="MenuView" Value="显示(_V)" />
+  <Item Key="MenuViewVoicePresetsPane" Value="声库预设(_V)" />
+  <Item Key="MenuViewTuningPane" Value="调声面板(_T)" />
+  <Item Key="MenuViewVoiceImagePane" Value="角色面板(_C)" />
+  <Item Key="MenuViewInitializeWindowPlacement" Value="初始化窗口排列和布局(_I)" />
+
+  <Item Key="MenuTool" Value="工具(_T)" />
+  <Item Key="MenuToolOptions" Value="选项(_O)..." /><!-- 追加 -->
+  <Item Key="MenuToolEnglishUserDicRegister" Value="单词注册(英语)(_R)..." /><!-- 追加 -->
+  <Item Key="MenuToolEnglishUserDicList" Value="单词列表(英语)(_L)..." /><!-- 追加 -->
+  <Item Key="MenuToolChineseUserDicRegister" Value="单词注册(中文)(_G)..." />
+  <Item Key="MenuToolChineseUserDicList" Value="单词列表(中文)(_S)..." />
+  <Item Key="MenuToolProjectSettings" Value="工程设定(_P)..." />
+  <Item Key="MenuToolEnvironmentalSettings" Value="环境设定(_E)..." />
+  <Item Key="MenuToolDataConversion" Value="用户数据转换工具(_C)..." />
+  <Item Key="MenuToolInitializeUserSettings" Value="设定初始化(_I)" />
+
+  <Item Key="MenuHelp" Value="帮助(_H)" />
+  <Item Key="MenuHelpHelp" Value="显示帮助(_V)" />
+  <Item Key="MenuHelpShowInformation" Value="通知(_I)" />
+  <Item Key="MenuHelpShowUpdate" Value="更新确认(_U)" />
+  <Item Key="MenuHelpShowProductLicense" Value="已认证的声库(_L)" />
+  <Item Key="MenuHelpVersionInfo" Value="版本信息(_A)" />
+
+
+  <!-- VoicePresets -->
+
+  <Item Key="VoicePresetsTitle" Value="声库" />
+  <Item Key="VoicePresetsStandard" Value="标准预设" />
+  <Item Key="VoicePresetsUser" Value="用户预设" />
+
+  <Item Key="VoicePresetsNew" Value="新建" />
+  <Item Key="VoicePresetsCopy" Value="复制" />
+  <Item Key="VoicePresetsDelete" Value="删除" />
+
+  <!-- TextEdit -->
+
+  <!-- ContextMenu -->
+  <Item Key="TextEditContextMenuUndo" Value="撤销(_U)" />
+  <Item Key="TextEditContextMenuRedo" Value="重做(_R)" />
+  <Item Key="TextEditContextMenuCut" Value="剪切(_T)" />
+  <Item Key="TextEditContextMenuCopy" Value="复制(_C)" />
+  <Item Key="TextEditContextMenuPaste" Value="粘贴(_P)" />
+  <Item Key="TextEditContextMenuDelete" Value="删除(_D)" />
+  <Item Key="TextEditContextMenuSelectAll" Value="全选(_A)" />
+  <Item Key="TextEditContextMenuMoveToBeginning" Value="到文本开头(_B)" />
+  <Item Key="TextEditContextMenuMoveToEnd" Value="到文本结尾(_E)" />
+  <Item Key="TextEditContextMenuAddVoicePreset" Value="将文本分配给声库预设(_V)" />
+  <Item Key="TextEditContextMenuRemoveVoicePreset" Value="取消文本的声库预设分配(_O)" />
+  <Item Key="TextEditContextMenuInsertRuby" Value="插入注音(_Y)" />
+  <Item Key="TextEditContextMenuCreateNewWord" Value="编辑单词(_W)" />
+
+  <Item Key="TextEditListSelectAll" Value="全选(_A)" />
+  <Item Key="TextEditListSelectCurrentPreset" Value="选择所有相同的预设(_R)" />
+  <Item Key="TextEditListSetVoicePreset" Value="将文本分配给声库预设(_V)" />
+  <Item Key="TextEditListInsert" Value="挿入(_I)" />
+  <Item Key="TextEditListRemove" Value="删除(_D)" />
+  <Item Key="TextEditListCopy" Value="复制(_C)" />
+  <Item Key="TextEditListCut" Value="剪切(_X)" />
+  <Item Key="TextEditListPaste" Value="粘贴(_P)" />
+
+  <Item Key="TextEditTextTab" Value="文本" />
+  <Item Key="TextEditListTab" Value="列表" />
+  <Item Key="TextEditListPresetColumn" Value="声库预设" />
+  <Item Key="TextEditListTextColumn" Value="句子" />
+
+  <Item Key="TextEditPlay" Value="播放" />
+  <Item Key="TextEditStop" Value="停止" />
+  <Item Key="TextEditMoveToBeginning" Value="开头" />
+  <Item Key="TextEditMoveToEnd" Value="末尾" />
+  <Item Key="TextEditGenerateKana" Value="假名作成" />
+  <Item Key="TextEditSave" Value="保存音频" />
+  <Item Key="TextEditTime" Value="播放时间" />
+  <Item Key="TextEditListToText" Value="添加到文本栏" />
+  <Item Key="TextEditTextToList" Value="添加到列表栏" />
+
+  <!-- Character -->
+
+  <Item Key="CharacterSleepModeOn" Value="睡眠模式开启" />
+
+  <!-- Tuning -->
+
+  <Item Key="TuningTitle" Value="调音" />
+  <Item Key="TuningTabMaster" Value="全局参数" />
+  <Item Key="TuningTabVoice" Value="声库预设编辑" />
+  <Item Key="TuningTabPhrase" Value="词组编辑" />
+  <Item Key="TuningTabWord" Value="单词编辑" />
+  <Item Key="TuningTabKana" Value="假名编辑" />
+
+  <!-- MasterControl -->
+
+  <!-- SoundEffect -->
+  <Item Key="MasterControlSoundEffectTitle" Value="音频效果" />
+  <Item Key="MasterControlSoundEffectVolume" Value="音量" />
+  <Item Key="MasterControlSoundEffectVolumeUnit" Value="[倍]" />
+  <Item Key="MasterControlSoundEffectSpeed" Value="语速" />
+  <Item Key="MasterControlSoundEffectSpeedUnit" Value="[倍]" />
+  <Item Key="MasterControlSoundEffectPitch" Value="音高" />
+  <Item Key="MasterControlSoundEffectPitchUnit" Value="[倍]" />
+  <Item Key="MasterControlSoundEffectPitchRange" Value="抑扬" />
+  <Item Key="MasterControlSoundEffectPitchRangeUnit" Value="[倍]" />
+  
+  <!-- PauseLength -->
+  <Item Key="MasterControlPauseLengthTitle" Value="停顿的长度" />
+  <Item Key="MasterControlPauseLengthMiddlePause" Value="短停顿" />
+  <Item Key="MasterControlPauseLengthMiddlePauseUnit" Value="[毫秒]" />
+  <Item Key="MasterControlPauseLengthLongPause" Value="长停顿" />
+  <Item Key="MasterControlPauseLengthLongPauseUnit" Value="[毫秒]" />
+  <Item Key="MasterControlPauseLengthSentencePause" Value="句末停顿" />
+  <Item Key="MasterControlPauseLengthSentencePauseUnit" Value="[毫秒]" />
+
+  <!-- SymbolPause -->
+  <Item Key="MasterControlSymbolPauseTitle" Value="停顿记号" />
+  <Item Key="MasterControlSymbolPauseListSymbol" Value="记号" />
+  <Item Key="MasterControlSymbolPauseListPauseLength" Value="停顿的长度 [毫秒]" />
+
+  <Item Key="MasterControlSymbolPauseNew" Value="新建" />
+  <Item Key="MasterControlSymbolPauseEdit" Value="编辑" />
+  <Item Key="MasterControlSymbolPauseDelete" Value="删除" />
+
+  <Item Key="MasterControlSymbolNotice" Value="该效果不适用于当前选择中的声库" />
+
+  <!-- VoicePreset -->
+  <Item Key="VoicePresetClearFilter" Value="×" />
+
+  <!-- VoicePresetName -->
+  <Item Key="VoicePresetNameTitle" Value="声库名" />
+
+  <!-- Voice -->
+  <Item Key="VoicePresetVoiceTitle" Value="声库" />
+  <Item Key="VoicePresetMergedVoiceTitle" Value="融合" />
+  <Item Key="VoicePresetMergedVoiceEmpty" Value="(未设定)" />
+
+  <Item Key="VoicePresetSave" Value="保存" />
+  <Item Key="VoicePresetReverte" Value="重置" />
+  <Item Key="VoicePresetDefault" Value="初始值" />
+
+  <!-- SoundEffect -->
+  <Item Key="VoicePresetSoundEffectTitle" Value="音频效果" />
+  <Item Key="VoicePresetSoundEffectVolume" Value="音量" />
+  <Item Key="VoicePresetSoundEffectVolumeUnit" Value="[倍]" />
+  <Item Key="VoicePresetSoundEffectSpeed" Value="语速" />
+  <Item Key="VoicePresetSoundEffectSpeedUnit" Value="[倍]" />
+  <Item Key="VoicePresetSoundEffectPitch" Value="音高" />
+  <Item Key="VoicePresetSoundEffectPitchUnit" Value="[倍]" />
+  <Item Key="VoicePresetSoundEffectPitchRange" Value="抑扬" />
+  <Item Key="VoicePresetSoundEffectPitchRangeUnit" Value="[倍]" />
+
+  <!-- PauseLength -->
+  <Item Key="VoicePresetPauseLength" Value="停顿的长度" />
+  <Item Key="VoicePresetPauseLengthMiddlePause" Value="短停顿" />
+  <Item Key="VoicePresetPauseLengthMiddlePauseUnit" Value="[毫秒]" />
+  <Item Key="VoicePresetPauseLengthLongPause" Value="长停顿" />
+  <Item Key="VoicePresetPauseLengthLongPauseUnit" Value="[毫秒]" />
+
+  <!-- Style -->
+  <Item Key="VoicePresetStyleTitle" Value="情感系统" />
+
+  <!-- PhraseEdit -->
+
+  <Item Key="PhraseEditAccentMode" Value="语调(重音)" />
+  <Item Key="PhraseEditVolumeMode" Value="音量" />
+  <Item Key="PhraseEditSpeedMode" Value="语速" />
+  <Item Key="PhraseEditPitchMode" Value="音高" />
+  <Item Key="PhraseEditPitchRangeMode" Value="抑扬" />
+
+  <Item Key="PhraseEditListEditMode" Value="列表编辑" />
+
+  <Item Key="PhraseEditPhraseTailNormal" Value="通常。" />
+  <Item Key="PhraseEditPhraseTailQuestion" Value="疑问？" />
+  <Item Key="PhraseEditPhraseTailCall" Value="呼唤♪" />
+  <Item Key="PhraseEditPhraseTailConclusion" Value="断定！" />
+
+  <Item Key="PhraseEditPlay" Value="播放" />
+  <Item Key="PhraseEditStop" Value="停止" />
+  <Item Key="PhraseEditRegister" Value="注册" />
+  <Item Key="PhraseEditDelete" Value="删除" />
+  <Item Key="PhraseEditList" Value="列表" />
+  <Item Key="PhraseEditRewind" Value="撤销" />
+  <Item Key="PhraseEditToList" Value="适用于列表" />
+  <Item Key="PhraseEditRemovePause" Value="删除停顿" />
+  <Item Key="PhraseEditKanaRetake" Value="解析日本語" />
+  <Item Key="PhraseEditStandard" Value="转换为标准语" />
+
+  <Item Key="PhraseEditTuningNotice" Value="该效果不适用于当前选择中的声库" />
+  <Item Key="PhraseEditTuningPlayNotice" Value="该效果不适用于当前的声库" />
+  <Item Key="PhraseEditTuningLangNotice" Value="所选声库预设的语言不可用" /><!-- 追加 -->
+
+  <!-- WordEdit -->
+
+  <Item Key="WordEditCaptionTitle" Value="写法 (全角30字符以内，句末记号除外)" />
+  <Item Key="WordEditPronunciationTitle" Value="读音 (全角片假名30字符以内，仅日语输入有效)" />
+  <Item Key="WordEditLongVowelsCandidate" Value="长音补正候补项 : " />
+  <Item Key="WordEditApplyLongVowelsCandidate" Value="适用" />
+  <Item Key="WordEditPartOfSpeechTitle" Value="词性" />
+  <Item Key="WordEditPriorityTitle" Value="优先度" />
+
+  <Item Key="WordEditPlay" Value="播放" />
+  <Item Key="WordEditStop" Value="停止" />
+  <Item Key="WordEditRegister" Value="注册" />
+  <Item Key="WordEditDelete" Value="删除" />
+  <Item Key="WordEditList" Value="列表" />
+  <Item Key="WordEditClear" Value="清除" />
+  <Item Key="WordEditStandard" Value="转换为标准语" />
+
+  <Item Key="WordEditTuningNotice" Value="该效果不适用于当前选择中的声库" />
+
+  <!-- KanaEdit -->
+
+  <Item Key="KanaEditPlay" Value="播放" />
+  <Item Key="KanaEditStop" Value="停止" />
+  <Item Key="KanaEditSaveKana" Value="保存假名" />
+  <Item Key="KanaEditSaveWave" Value="保存音频" />
+  <Item Key="KanaEditTime" Value="播放时间" />
+
+  <!-- StatusBar -->
+
+  <Item Key="StatusBarPhraseDic" Value="词组字典 : " />
+  <Item Key="StatusBarWordDic" Value="单词字典 : " />
+  <Item Key="StatusBarSymbolDic" Value="停顿记号字典 : " />
+  <Item Key="StatusBarUserDicUnuseMark" Value="× " />
+  <Item Key="StatusBarLicenseInfo" Value="使用期限 : " />
+  <Item Key="StatusBarTextLength" Value="{0} 字" />
+  <Item Key="StatusBarCaretRow" Value="{0} 行、" />
+  <Item Key="StatusBarCaretColumn" Value="{0} 列" />
+
+
+  <!-- VoicePresetCreateNewWindow -->
+
+  <Item Key="VoicePresetCreateNewWindowTitle" Value="新建声库预设" />
+  <Item Key="VoicePresetCreateNewPresetName" Value="预设名称" />
+  <Item Key="VoicePresetCreateNewOk" Value="OK" />
+  <Item Key="VoicePresetCreateNewCancel" Value="取消" />
+
+
+  <!-- PartOfSpeechWindow -->
+
+  <Item Key="PartOfSpeechWindowTitle" Value="词性列表" />
+  <Item Key="PartOfSpeechOk" Value="OK" />
+  <Item Key="PartOfSpeechCancel" Value="取消" />
+
+  <Item Key="PartOfSpeechGeneralNounDisplayName" Value="普通名词" />
+  <Item Key="PartOfSpeechGeneralNounDescription" Value="一般名词。一般名词在字典中已经有很多倍注册，所以一般用于在注册新词和专业用语的情况。&#xA;【例】音频合成、词素分析" />
+  <Item Key="PartOfSpeechProperNounDisplayName" Value="固有名词" />
+  <Item Key="PartOfSpeechProperNounDescription" Value="某种东西的名字等的固有名词。特别是不能分类的情况下，请选择这个。&#xA;【例】ＡＩＴａｌｋ、声音的工匠" />
+  <Item Key="PartOfSpeechGeneralNameDisplayName" Value="人名" />
+  <Item Key="PartOfSpeechGeneralNameDescription" Value="表示人名的固有名词中，不能分为姓和名的，以及姓和名的组合形式。&#xA;【例】琴叶姐妹、AI太郎" />
+  <Item Key="PartOfSpeechLastNameDisplayName" Value="人名（姓）" />
+  <Item Key="PartOfSpeechLastNameDescription" Value="表示人名的固有名词中的姓氏。&#xA;【例】琴叶" />
+  <Item Key="PartOfSpeechFirstNameDisplayName" Value="人名（名）" />
+  <Item Key="PartOfSpeechFirstNameDescription" Value="表示人名的固有名词中的名字。&#xA;【例】茜、葵" />
+  <Item Key="PartOfSpeechPlaceNameDisplayName" Value="地名" />
+  <Item Key="PartOfSpeechPlaceNameDescription" Value="表示地名的固有名词&#xA;【例】东京都、文京区" />
+  <Item Key="PartOfSpeechSahenNounDisplayName" Value="サ变名词" />
+  <Item Key="PartOfSpeechSahenNounDescription" Value="后面加上“する”可以动词化的名词。&#xA;【例】合成（する）、播放（する）" />
+  <Item Key="PartOfSpeechAdjectivalNounDisplayName" Value="形容动词" />
+  <Item Key="PartOfSpeechAdjectivalNounDescription" Value="后面加上“だ”可以形容动词化的名词&#xA;【例】静か（だ）、気弱（だ）" />
+  <Item Key="PartOfSpeechMarkDisplayName" Value="记号" />
+  <Item Key="PartOfSpeechMarkDescription" Value="在句子中把读音分配给与前后单词没有联系的单词。也可以应用于颜表情。&#xA;【例】 ＼(^o^)／" />
+
+  <Item Key="PartOfSpeechGeneralNounDisplayNameV" Value="普通名词" />
+  <Item Key="PartOfSpeechGeneralNounDescriptionV" Value="一般名词。一般名词在字典中已经有很多倍注册，所以一般用于在注册新词和专业用语的情况。&#xA;【例】音频合成" />
+  <Item Key="PartOfSpeechProperNounDisplayNameV" Value="固有名词" />
+  <Item Key="PartOfSpeechProperNounDescriptionV" Value="某种东西的名字等的固有名词。特别是不能分类的情况下，请选择这个。&#xA;【例】ＶＯＩＣＥＲＯＩＤ、ＡＩＴａｌｋ" />
+  <Item Key="PartOfSpeechGeneralNameDisplayNameV" Value="人名" />
+  <Item Key="PartOfSpeechGeneralNameDescriptionV" Value="表示人名的固有名词中，不能分为姓和名的，以及姓和名的组合形式。&#xA;【例】琴叶姉妹、AI太郎" />
+  <Item Key="PartOfSpeechLastNameDisplayNameV" Value="人名（姓）" />
+  <Item Key="PartOfSpeechLastNameDescriptionV" Value="表示人名的固有名词中的姓氏。&#xA;【例】琴叶" />
+  <Item Key="PartOfSpeechFirstNameDisplayNameV" Value="人名（名）" />
+  <Item Key="PartOfSpeechFirstNameDescriptionV" Value="表示人名的固有名词中的名字。&#xA;【例】茜、葵" />
+  <Item Key="PartOfSpeechPlaceNameDisplayNameV" Value="地名" />
+  <Item Key="PartOfSpeechPlaceNameDescriptionV" Value="表示地名的固有名词&#xA;【例】东京都、文京区" />
+  <Item Key="PartOfSpeechSahenNounDisplayNameV" Value="サ变名词" />
+  <Item Key="PartOfSpeechSahenNounDescriptionV" Value="后面加上“する”可以动词化的名词。&#xA;【例】合成（する）、播放（する）" />
+  <Item Key="PartOfSpeechAdjectivalNounDisplayNameV" Value="形容动词" />
+  <Item Key="PartOfSpeechAdjectivalNounDescriptionV" Value="后面加上“だ”可以形容动词化的名词&#xA;【例】静か（だ）、気弱（だ）" />
+  <Item Key="PartOfSpeechMarkDisplayNameV" Value="记号" />
+  <Item Key="PartOfSpeechMarkDescriptionV" Value="在句子中把读音分配给与前后单词没有联系的单词。也可以应用于颜表情。&#xA;【例】 ＼(^o^)／" />
+
+  <!-- Priority -->
+
+  <Item Key="PriorityHighest" Value="最高" />
+  <Item Key="PriorityHigh" Value="高" />
+  <Item Key="PriorityNormal" Value="标准" />
+  <Item Key="PriorityLow" Value="低" />
+  <Item Key="PriorityLowest" Value="最低" />
+
+
+  <!-- ProjectSettingsWindow -->
+
+  <Item Key="ProjectSettingsWindowTitle" Value="工程设定" />
+  <Item Key="ProjectSettingsTabVoice" Value="声库" />
+  <Item Key="ProjectSettingsTabLang" Value="用户字典" />
+  <Item Key="ProjectSettingsTabSynthesis" Value="音频合成" />
+  <Item Key="ProjectSettingsTabSaveWave" Value="音频文件保存" />
+  <Item Key="ProjectSettingsOk" Value="OK" />
+  <Item Key="ProjectSettingsCancel" Value="取消" />
+
+  <!-- EnvironmentalSettingsWindow -->
+
+  <Item Key="EnvironmentalSettingsWindowTitle" Value="环境设定" />
+  <Item Key="EnvironmentalSettingsOk" Value="OK" />
+  <Item Key="EnvironmentalSettingsCancel" Value="取消" />
+  <Item Key="EnvironmentalSettingsDialectGroupTitle" Value="方言" />
+  <Item Key="EnvironmentalSettingsSynthesizeGroupTitle" Value="音频合成" />
+  <Item Key="SettingsSynthesizeEffectExpansion" Value="扩大音频效果值的输入范围" />
+  <Item Key="EnvironmentalSettingsSaveWaveGroupTitle" Value="保存音频" />
+  <Item Key="EnvironmentalSettingsTextFormatGroupTitle" Value="文本输入栏格式" />
+
+  <!-- SettingsWindow -->
+
+  <Item Key="SettingsWindowTitle" Value="选项" />
+  <Item Key="SettingsTabVoice" Value="声库" />
+  <Item Key="SettingsTabLang" Value="用户字典" />
+  <Item Key="SettingsTabText" Value="格式" />
+  <Item Key="SettingsTabSaveWave" Value="保存音频" />
+  <Item Key="SettingsTabOthers" Value="其他" />
+  <Item Key="SettingsOk" Value="OK" />
+  <Item Key="SettingsCancel" Value="取消" />
+
+  <!-- Voice Tab -->
+  <Item Key="SettingsVoiceVoiceDicGroupTitle" Value="音频字典" />
+  <Item Key="SettingsVoiceVoiceDicSamplesPerSec" Value="采样率" />
+  <Item Key="SettingsVoiceVoiceDicSamplesPerSecUnit" Value="[Hz]" />
+  <Item Key="SettingsVoiceVoicePresetGroupTitle" Value="声库预设" />
+  <Item Key="SettingsVoiceFileSelectTitle" Value="选择声库预设" />
+  <Item Key="SettingsVoiceFileSelectFilter" Value="声库预设文件|*.vpc|全选|*.*" />
+  <Item Key="SettingsVoiceFileNew" Value="新建" />
+  <Item Key="SettingsVoiceFileMerge" Value="整合" />
+  <Item Key="SettingsVoiceVoicePresetTagGroupTitle" Value="声库预设tag" />
+  <Item Key="SettingsVoiceTagEnable" Value="在输入文本中启用声库预设标记" />
+  <Item Key="SettingsVoiceTagString" Value="提示字符串" />
+  <Item Key="SettingsVoiceOthersPresetToText" Value="将声库预设标记输出为文本" />
+  <Item Key="SettingsVoiceIsKansaiEnabled" Value="使用关西腔声库" />
+
+  <!-- LangDicSettings Tab -->
+  <Item Key="SettingsLangPhraseEnable" Value="词组字典" />
+  <Item Key="SettingsLangPhraseFileSelectFilter" Value="词组字典文件|*.pdic|全选|*.*" />
+  <Item Key="SettingsLangPhraseFileSelectTitle" Value="选择词组字典" />
+  <Item Key="SettingsLangPhraseNew" Value="新建" />
+  <Item Key="SettingsLangPhraseMerge" Value="整合" />
+
+  <Item Key="SettingsLangWordEnable" Value="单词字典" />
+  <Item Key="SettingsLangWordFileSelectFilter" Value="单词字典文件|*.wdic|全选|*.*" />
+  <Item Key="SettingsLangWordFileSelectTitle" Value="选择单词字典" />
+  <Item Key="SettingsLangWordNew" Value="新建" />
+  <Item Key="SettingsLangWordMerge" Value="整合" />
+
+  <Item Key="SettingsLangSymbolEnable" Value="停顿记号字典" />
+  <Item Key="SettingsLangSymbolFileSelectFilter" Value="停顿记号字典文件|*.sdic|全选|*.*" />
+  <Item Key="SettingsLangSymbolFileSelectTitle" Value="选择停顿记号字典" />
+  <Item Key="SettingsLangSymbolNew" Value="新建" />
+  <Item Key="SettingsLangSymbolMerge" Value="整合" />
+
+  <Item Key="SettingsLangEnglishWordEnable" Value="单词字典(英语)" /><!-- 追加 -->
+  <Item Key="SettingsLangEnglishWordFileSelectFilter" Value="单词字典(英语)文件|*.wdic_en-US|全选|*.*" /><!-- 追加 -->
+  <Item Key="SettingsLangEnglishWordFileSelectTitle" Value="选择单词字典(英语)" /><!-- 追加 -->
+  <Item Key="SettingsLangEnglishWordNew" Value="新建" /><!-- 追加 -->
+  <Item Key="SettingsLangEnglishWordMerge" Value="整合" /><!-- 追加 -->
+
+  <Item Key="SettingsLangChineseWordEnable" Value="单词字典(中文)" />
+  <Item Key="SettingsLangChineseWordFileSelectFilter" Value="单词字典(中文)文件|*.wdic_zh-CN|全选|*.*" />
+  <Item Key="SettingsLangChineseWordFileSelectTitle" Value="选择单词字典(中文)" />
+  <Item Key="SettingsLangChineseWordNew" Value="新建" />
+  <Item Key="SettingsLangChineseWordMerge" Value="整合" />
+
+  <!-- Text Tab -->
+  <Item Key="SettingsTextFontName" Value="字体名称" />
+  <Item Key="SettingsTextFontSize" Value="字体大小" />
+  <Item Key="SettingsTextWrapping" Value="在右边缘折回" />
+  <Item Key="SettingsTextLineBreakIsEndOfSentence" Value="把换行当作句末" />
+
+  <!-- Synthesis Tab -->
+  <Item Key="SettingsSynthesisPauseGroupTitle" Value="音频文件保存时的停顿" />
+  <Item Key="SettingsSynthesisPauseBegin" Value="开始停顿" />
+  <Item Key="SettingsSynthesisPauseBeginUnit" Value="[毫秒]" />
+  <Item Key="SettingsSynthesisPauseTerm" Value="停止停顿" />
+  <Item Key="SettingsSynthesisPauseTermUnit" Value="[毫秒]" />
+  <Item Key="SettingsSynthesisTextGroupTitle" Value="文本" />
+  <Item Key="SettingsSynthesisLineBreakIsEndOfSentence" Value="把换行当作句末" />
+
+  <!-- SaveWave Tab -->
+  <Item Key="SettingsSaveWaveFileSplitGroupTitle" Value="文件分割" />
+  <Item Key="SettingsSaveWaveFileSplitNoSplit" Value="导出为1个文件" />
+  <Item Key="SettingsSaveWaveFileSplitPerSentence" Value="以句为划分导出到多个文件" />
+  <Item Key="SettingsSaveWaveFileSplitPerDelimiter" Value="以分隔符为划分导出到多个文件" />
+  <Item Key="SettingsSaveWaveFileSplitDelimiter" Value="分隔符" />
+  <Item Key="SettingsSaveWavePauseGroupTitle" Value="停顿" />
+  <Item Key="SettingsSaveWavePauseBegin" Value="开始时的停顿" />
+  <Item Key="SettingsSaveWavePauseBeginUnit" Value="[毫秒]" />
+  <Item Key="SettingsSaveWavePauseTerm" Value="停止时的停顿" />
+  <Item Key="SettingsSaveWavePauseTermUnit" Value="[毫秒]" />
+  <Item Key="SettingsSaveWaveFileFormat" Value="文件格式" />
+  <Item Key="SettingsSaveWaveFileHeader" Value="有文件标题" />
+  <Item Key="SettingsSaveWaveTextFileGroupTitle" Value="文本文件" />
+  <Item Key="SettingsSaveWaveTextFileCreateText" Value="将文本文件与音频文件一起保存" />
+  <Item Key="SettingsSaveWaveTextFileEncode" Value="字体编码： " />
+  <Item Key="SettingsSaveWavePhonemeFileCreateText" Value="将音素信息文件与音频文件一起保存" />
+  <Item Key="SettingsSaveWaveShowSettings" Value="每次保存音频时显示设定" />
+
+  <Item Key="SettingsSaveWaveSelectPathGroupTitle" Value="指定音频文件路径" />
+  <Item Key="SettingsSaveWaveSelectPathByCommonDialog" Value="在“保存文件”对话框中选择" />
+  <Item Key="SettingsSaveWaveSelectPathByNamingRule" Value="指定文件命名规则" />
+  <Item Key="SettingsSaveWaveNamingRuleFolder" Value="文件夹" />
+  <Item Key="SettingsSaveWaveNamingRuleFolderRef" Value="浏览..." />
+  <Item Key="SettingsSaveWaveNamingRuleFileName" Value="命名规则" />
+  <Item Key="SettingsSaveWaveNamingRuleDateButton" Value="年月日" />
+  <Item Key="SettingsSaveWaveNamingRuleTimeButton" Value="时分秒" />
+  <Item Key="SettingsSaveWaveNamingRuleVoiceButton" Value="说话者" />
+  <Item Key="SettingsSaveWaveNamingRulePresetButton" Value="声库" />
+  <Item Key="SettingsSaveWaveNamingRuleTextButton" Value="文本" />
+  <Item Key="SettingsSaveWaveNamingRuleProjectButton" Value="工程" />
+  <Item Key="SettingsSaveWaveNamingRuleNumberButton" Value="序号" />
+  <Item Key="SettingsSaveWaveNamingRuleGroupDetail" Value="详细" />
+  <Item Key="SettingsSaveWaveNamingRuleText" Value="[文本]" />
+  <Item Key="SettingsSaveWaveNamingRuleTextLength" Value="字数" />
+  <Item Key="SettingsSaveWaveNamingRuleNumber" Value="[序号]" />
+  <Item Key="SettingsSaveWaveNamingRuleNumberDigit" Value="数字" />
+  <Item Key="SettingsSaveWaveNamingRuleNumberStart" Value="开始序号" />
+  <Item Key="SettingsSaveWaveNamingRulePreset" Value="从预设中选择" />
+  <Item Key="SettingsSaveWaveNamingRulePresetApply" Value="适用" />
+
+  <Item Key="SettingsSaveWaveNamingRuleProjectDisplay" Value="工程" />
+  <Item Key="SettingsSaveWaveNamingRulePresetDisplay" Value="声库" />
+  <Item Key="SettingsSaveWaveNamingRuleNumberDisplay" Value="序号" />
+  <Item Key="SettingsSaveWaveNamingRuleTextDisplay" Value="文本" />
+  <Item Key="SettingsSaveWaveNamingRuleDateDisplay" Value="年月日" />
+  <Item Key="SettingsSaveWaveNamingRuleTimeDisplay" Value="时分秒" />
+
+  <Item Key="SettingsSaveWaveNamingRuleOutDIr" Value="选择输出文件夹" />
+  
+  
+  <!-- OtherSettings Tab -->
+
+  <Item Key="SettingsOtherFeatureModeGroupTitle" Value="功能模式" />
+  <Item Key="SettingsOtherFeatureModeSimple" Value="简易" />
+  <Item Key="SettingsOtherFeatureModeNormal" Value="标准" />
+  <Item Key="SettingsOtherFeatureModeFull" Value="详细" />
+  <Item Key="SettingsOtherAudioDeviceGroupTitle" Value="音频设备" />
+  <Item Key="SettingsOtherAudioDeviceUseDefault" Value="使用默认设备" />
+  <Item Key="SettingsOtherMessageGroupTitle" Value="信息" />
+  <Item Key="SettingsOtherMessageLevel" Value="信息显示级别" />
+  <Item Key="SettingsOtherMessageToolTip" Value="显示工具提示" />
+  <Item Key="SettingsOtherWindowGroupTitle" Value="窗口" />
+  <Item Key="SettingsOtherWindowTheme" Value="主题" />
+  <Item Key="SettingsOtherWindowVoicePresetIconSize" Value="声库列表的图标大小" />
+  <Item Key="SettingsOtherWindowVoicePresetIconSizeLarge" Value="大" />
+  <Item Key="SettingsOtherWindowVoicePresetIconSizeSmall" Value="小" />
+  <Item Key="SettingsOtherLanguageGroupTitle" Value="语言" />
+  <Item Key="SettingsOtherLangNotice" Value="※ 重新启动后生效。" />
+
+
+  <!-- SaveWaveWindow -->
+
+  <Item Key="SaveWaveWindowTitle" Value="保存音频" />
+  <Item Key="SaveWaveOk" Value="OK" />
+  <Item Key="SaveWaveCancel" Value="取消" />
+
+
+  <!-- ExportProjectWindow-->
+  
+  <Item Key="ExportProjectWindowTitle" Value="导出工程" />
+  <Item Key="ExportProjectOutputFolder" Value="输出文件夹" />
+  <Item Key="ExportProjectOutputFolderReference" Value="浏览..." />
+  <Item Key="ExportProjectProjectName" Value="工程名" />
+  <Item Key="ExportProjectOk" Value="OK" />
+  <Item Key="ExportProjectCancel" Value="取消" />
+  
+  <Item Key="ExportProjectSelectFolderTitle" Value="输出文件夹选择" />
+
+  <!-- ProgressWindow -->
+
+  <Item Key="ProgressCancel" Value="取消" />
+
+  <Item Key="ProgressImportUserSettingsTitle" Value="导入设定" />
+  <Item Key="ProgressImportUserSettingsMessage" Value="正在导入设定..." />
+
+  <Item Key="ProgressInitializeUserSettingsTitle" Value="初始化设定" />
+  <Item Key="ProgressInitializeUserSettingsMessage" Value="正在初始化设定..." />
+
+  <Item Key="ProgressGenerateKanaTitle" Value="生成假名" />
+  <Item Key="ProgressGenerateKanaMessage" Value="正在生成假名..." />
+
+  <Item Key="ProgressSaveWaveTitle" Value="保存音频" />
+  <Item Key="ProgressSaveWaveMessage" Value="合成音频正在保存到文件..." />
+
+  <Item Key="ProgressSaveWaveComplitionMessage" Value="合成音频已保存到文件。" />
+
+  <Item Key="ProgressCalculateTimeTitle" Value="计算播放时间" />
+  <Item Key="ProgressCalculateTimeMessage" Value="正在计算播放时间..." />
+
+  <Item Key="ProgressMergeTitle" Value="{0}的整合" />
+  <Item Key="ProgressMergeMessage" Value="{0}正在被整合..." />
+
+  <Item Key="ProgressUpdateSettingsTitle" Value="设定更新" />
+  <Item Key="ProgressUpdateSettingsMessage" Value="设定正在更新..." />
+
+  <Item Key="ProgressCreateNewProjectTitle" Value="新建工程" />
+  <Item Key="ProgressCreateNewProjectMessage" Value="正在新建工程..." />
+  <Item Key="ProgressOpenProjectTitle" Value="打开工程" />
+  <Item Key="ProgressOpenProjectMessage" Value="正在打开工程..." />
+
+  <Item Key="ProgressCreateSentencesTitle" Value="转换为列表" />
+  <Item Key="ProgressCreateSentencesMessage" Value="正在转换为列表..." />
+
+  
+  <!-- SymbolEditWindow -->
+
+  <Item Key="SymbolEditWindowTitleNew" Value="新建停顿记号" />
+  <Item Key="SymbolEditWindowTitleEdit" Value="编辑停顿记号" />
+  <Item Key="SymbolEditSymbol" Value="标记" />
+  <Item Key="SymbolEditPauseLength" Value="停顿的长度" />
+  <Item Key="SymbolEditPauseLengthUnit" Value="[毫秒]" />
+  <Item Key="SymbolEditOk" Value="OK" />
+  <Item Key="SymbolEditCancel" Value="取消" />
+
+
+  <!-- VoiceListWindow -->
+
+  <Item Key="VoiceListWindowTitle" Value="声库列表" />
+  <Item Key="VoiceListOk" Value="OK" />
+  <Item Key="VoiceListCancel" Value="取消" />
+
+  
+  <!-- ProsodyInjectionWindow -->
+
+  <Item Key="ProsodyInjectionWindowTitle" Value="声库融合" />
+  <Item Key="ProsodyInjectionMergedVoice" Value="需要融合的声库" />
+  <Item Key="ProsodyInjectionBasePitch" Value="作为音高基准的声库" />
+  <Item Key="ProsodyInjectionReset" Value="融合解除" />
+  <Item Key="ProsodyInjectionOk" Value="OK" />
+  <Item Key="ProsodyInjectionCancel" Value="取消" />
+
+
+  <!-- VoiceListFilterWindow -->
+
+  <Item Key="VoiceListFilterWindowTitle" Value="声库预设过滤器" />
+  <Item Key="VoiceListFilterSelectAll" Value="全选" />
+  <Item Key="VoiceListFilterUnselectAll" Value="全解除" />
+  <Item Key="VoiceListFilterOk" Value="OK" />
+  <Item Key="VoiceListFilterCancel" Value="取消" />
+
+
+  <!-- VoiceLicenseWindow -->
+
+  <Item Key="VoiceLicenseWindowTitle" Value="已认证声库列表" />
+  <Item Key="VoiceLicenseWindowExpired" Value="过期" />
+  <Item Key="VoiceLicenseWindowAuthenticated" Value="已认证" />
+  <Item Key="VoiceLicenseWindowTrial" Value="体验版" />
+  <Item Key="VoiceLicenseWindowTrialRemaining" Value="体验版 剩余" />
+  <Item Key="VoiceLicenseWindowTrialRemainingUnit" Value="日" />
+  <Item Key="VoiceLicenseWindowNoLicense" Value="无许可证" />
+  <Item Key="VoiceLicenseOk" Value="OK" />
+
+
+  <!-- UserDicListWindow -->
+
+  <Item Key="UserDicListShowDetail" Value="▼详细" />
+  <Item Key="UserDicListTarget" Value="搜索对象" />
+  <Item Key="UserDicListCaption" Value="写法" />
+  <Item Key="UserDicListPronunciation" Value="读音" />
+  <Item Key="UserDicListPronunciationEnglish" Value="读音" /><!-- 追加 -->
+  <Item Key="UserDicListPronunciationChinese" Value="读音" />
+  <Item Key="UserDicListAndOr" Value="AND / OR" />
+  <Item Key="UserDicListAndOrAnd" Value="AND(和)" />
+  <Item Key="UserDicListAndOrOr" Value="OR(或)" />
+  <Item Key="UserDicListMatch" Value="匹配点" />
+  <Item Key="UserDicListMatchForward" Value="前方一致" />
+  <Item Key="UserDicListMatchPartial" Value="部分一致" />
+  <Item Key="UserDicListMatchBackward" Value="后方一致" />
+  <Item Key="UserDicListDisplayNumPerPage" Value="1页中显示数量" />
+  <Item Key="UserDicListInitialAll" Value="全" />
+  <Item Key="UserDicListInitialA" Value="ア" />
+  <Item Key="UserDicListInitialKa" Value="カ" />
+  <Item Key="UserDicListInitialSa" Value="サ" />
+  <Item Key="UserDicListInitialTa" Value="タ" />
+  <Item Key="UserDicListInitialNa" Value="ナ" />
+  <Item Key="UserDicListInitialHa" Value="ハ" />
+  <Item Key="UserDicListInitialMa" Value="マ" />
+  <Item Key="UserDicListInitialYa" Value="ヤ" />
+  <Item Key="UserDicListInitialRa" Value="ラ" />
+  <Item Key="UserDicListInitialWa" Value="ワ" />
+  <Item Key="UserDicListFilterdNum" Value="{0} 个中 {1} 个显示" />
+  <Item Key="UserDicListPaging" Value="{0} - {1} 个显示 " />
+
+  <Item Key="UserDicListEdit" Value="编辑" />
+  <Item Key="UserDicListDelete" Value="删除" />
+  <Item Key="UserDicListClose" Value="关闭" />
+
+  <!-- UserWordDicList -->
+  <Item Key="UserWordDicEntryName" Value="单词" />
+  <Item Key="UserWordDicListWindowTitle" Value="单词列表" />
+  <Item Key="UserWordDicListCaption" Value="写法" />
+  <Item Key="UserWordDicListPronunciation" Value="读音" />
+  <Item Key="UserWordDicListPartOfSpeech" Value="词性" />
+  <Item Key="UserWordDicListPriority" Value="优先度" />
+
+  <!-- UserPhraseDicList -->
+  <Item Key="UserPhraseDicEntryName" Value="词组" />
+  <Item Key="UserPhraseDicListWindowTitle" Value="词组列表" />
+  <Item Key="UserPhraseDicListCaption" Value="写法" />
+  <Item Key="UserPhraseDicListPronunciation" Value="读音" />
+
+  <!-- EnglishUserWordDicList -->
+  <Item Key="EnglishUserWordDicEntryName" Value="单词" /><!-- 追加 -->
+  <Item Key="EnglishUserWordDicListWindowTitle" Value="单词列表(英语)" /><!-- 追加 -->
+  <Item Key="EnglishUserWordDicListCaption" Value="写法" /><!-- 追加 -->
+  <Item Key="EnglishUserWordDicListPronunciation" Value="读音" /><!-- 追加 -->
+
+  <!-- ChineseUserWordDicList -->
+  <Item Key="ChineseUserWordDicEntryName" Value="单词" />
+  <Item Key="ChineseUserWordDicListWindowTitle" Value="单词列表(中文)" />
+  <Item Key="ChineseUserWordDicListCaption" Value="写法" />
+  <Item Key="ChineseUserWordDicListPronunciation" Value="读音" />
+
+
+  <!-- SleepModeSettingsWindow -->
+
+  <Item Key="SleepModeSettingsWindowTitle" Value="睡眠模式的设定" />
+  <Item Key="SleepModeSettingsTime" Value="进入睡眠状态的时间" />
+  <Item Key="SleepModeSettingsOk" Value="OK" />
+  <Item Key="SleepModeSettingsCancel" Value="取消" />
+
+  <Item Key="SleepModeSettingsNothing" Value="无" />
+  <Item Key="SleepModeSettingsHours" Value=" 时间 " />
+  <Item Key="SleepModeSettingsMinutes" Value=" 分 " />
+  <Item Key="SleepModeSettingsSeconds" Value=" 秒 " />
+
+
+  <!-- AuthenticationWindow -->
+  
+  <Item Key="AuthenticationWindowTitle" Value="许可证认证" />
+
+  <!-- Online -->
+  <Item Key="AuthenticationMessageNotActivated" Value="以下的声库没有完成激活认证。" />
+  <Item Key="AuthenticationToOfflineAuthentication" Value="⇒离线认证" />
+  <Item Key="AuthenticationExpired" Value="过期" />
+  <Item Key="AuthenticationAuthenticated" Value="已认证" />
+  <Item Key="AuthenticationTrialRemaining" Value="体验版 剩余" />
+  <Item Key="AuthenticationTrialRemainingUnit" Value="日" />
+  <Item Key="AuthenticationNoLicense" Value="无许可证" />
+  <Item Key="AuthenticationInputActivationKey" Value="输入20位字母数字激活码并按下“OK”按钮。" />
+  <Item Key="AuthenticationOk" Value="OK" />
+  <Item Key="AuthenticationCancel" Value="取消" />
+
+  <!-- Offline -->
+  <Item Key="AuthenticationToOnlineAuthentication" Value="⇒在线认证" />
+  <Item Key="AuthenticationMessageActivate" Value="按照说明执行离线激活。" />
+  <Item Key="AuthenticationMessageStep1" Value="步骤1:获取计算机固有信息（使用产品的计算机）" />
+  <Item Key="AuthenticationMessageSaveIdFile" Value="请在文件（.id）中保存计算机固有信息。" />
+  <Item Key="AuthenticationExecution" Value="执行" />
+  <Item Key="AuthenticationMessageStep2" Value="步骤2:获得许可证（在可上网的计算机）" />
+  <Item Key="AuthenticationMessageStep2_1" Value="① 将保存的计算机固有信息文件（.id）移至可上网的计算机。" />
+  <Item Key="AuthenticationMessageStep2_2_1" Value="② 在可上网的计算机上打开互联网浏览器，访问许可证页面。（"/>
+  <Item Key="AuthenticationMessageStep2_2_2" Value="）"/>
+  <Item Key="AuthenticationMessageStep2_3" Value="③ 根据画面指示，取得许可文件（.license）。" />
+  <Item Key="AuthenticationMessageStep2_4" Value="④ 将许可文件从可上网的计算机移动到使用产品的计算机。" />
+  <Item Key="AuthenticationMessageStep2_4_2" Value="※请使用USB存储器等介质转移计算机固有信息文件及许可文件。" />
+  <Item Key="AuthenticationMessageStep2_4_3" Value="※离线激活的许可证无法反激活。" />
+  <Item Key="AuthenticationMessageStep3" Value="步骤3:许可证生效（使用产品的计算机）" />
+  <Item Key="AuthenticationMessageApplyLicenseFile" Value="使用通过Internet获得的许可证文件（.license）。" />
+
+
+  <!-- SplashScreen -->
+
+  <Item Key="SplashScreenInitializing" Value="正在初始化..." />
+
+
+  <!-- CommonDialog -->
+
+  <Item Key="CommonDialogImportVoicePresetTitle" Value="导入声库预设" />
+  <Item Key="CommonDialogImportVoicePresetFilter" Value="声库预设文件|*.vpc|全选|*.*" />
+
+  <Item Key="CommonDialogExportVoicePresetTitle" Value="导出声库预设" />
+  <Item Key="CommonDialogExportVoicePresetFilter" Value="声库预设文件|*.vpc" />
+
+  <Item Key="CommonDialogImportUserSettingsTitle" Value="导入设定" />
+  <Item Key="CommonDialogImportUserSettingsFilter" Value="设定文件|*.settings|全选|*.*" />
+
+  <Item Key="CommonDialogExportUserSettingsTitle" Value="导出设定" />
+  <Item Key="CommonDialogExportUserSettingsFilter" Value="设定文件|*.settings" />
+
+  <Item Key="CommonDialogSaveWaveWavFilter" Value="WAVE文件|*.wav" />
+  <Item Key="CommonDialogSaveWaveRawFilter" Value="RAW文件|*.raw" />
+  <Item Key="CommonDialogSaveWaveMp3Filter" Value="MP3文件|*.mp3" />
+  <Item Key="CommonDialogSaveWaveAacFilter" Value="AAC文件|*.aac" />
+  <Item Key="CommonDialogSaveWaveWmaFilter" Value="WMA文件|*.wma" />
+
+  <Item Key="CommonDialogOpenTextTitle" Value="打开文本" />
+  <Item Key="CommonDialogOpenTextFilterTextTitle" Value="文本文件" />
+  <Item Key="CommonDialogOpenTextFilterTextExt" Value="*.txt" />
+  <Item Key="CommonDialogOpenTextFilterAllTitle" Value="全选" />
+  <Item Key="CommonDialogOpenTextFilterAllExt" Value="*.*" />
+  <Item Key="CommonDialogOpenTextAutoEncoding" Value="编码：自动检测" />
+
+  <Item Key="CommonDialogSaveTextTitle" Value="保存文本" />
+  <Item Key="CommonDialogSaveTextFilter" Value="文件 (*.txt)|*.txt|全选 (*.*)|*.*" />
+
+  <Item Key="CommonDialogOpenKanaTitle" Value="打开假名" />
+  <Item Key="CommonDialogOpenKanaFilterTextTitle" Value="文本文件" />
+  <Item Key="CommonDialogOpenKanaFilterTextExt" Value="*.txt" />
+  <Item Key="CommonDialogOpenKanaFilterAllTitle" Value="全选" />
+  <Item Key="CommonDialogOpenKanaFilterAllExt" Value="*.*" />
+  <Item Key="CommonDialogOpenKanaAutoEncoding" Value="编码：自动检测" />
+
+  <Item Key="CommonDialogSaveKanaTitle" Value="保存建" />
+  <Item Key="CommonDialogSaveKanaFilter" Value="文書 (*.txt)|*.txt|全选 (*.*)|*.*" />
+
+  <Item Key="CommonDialogOpenProjectTitle" Value="打开工程" />
+  <Item Key="CommonDialogOpenProjectFilter" Value="工程 (*.aieproj)|*.aieproj|全选 (*.*)|*.*" />
+
+  <Item Key="CommonDialogSaveProjectTitle" Value="保存工程" />
+  <Item Key="CommonDialogSaveProjectFilter" Value="工程 (*.aieproj)|*.aieproj|全选 (*.*)|*.*" />
+
+  <Item Key="CommonDialogSaveFingerPrintTitle" Value="保存机器固有信息" />
+  <Item Key="CommonDialogSaveFingerPrintFilter" Value="机器固有信息文件 (*.id)|*.id" />
+
+  <Item Key="CommonDialogApplyLicenseTitle" Value="打开许可证文件" />
+  <Item Key="CommonDialogApplyLicenseFilter" Value="许可证文件 (*.license)|*.license|全选 (*.*)|*.*" />
+
+  <Item Key="CommonDialogNewPhraseDicTitle" Value="新建词组字典" />
+  <Item Key="CommonDialogNewPhraseDicFilter" Value="词组字典文件|*.pdic" />
+
+  <Item Key="CommonDialogNewWordDicTitle" Value="新建单词字典" />
+  <Item Key="CommonDialogNewWordDicFilter" Value="单词字典文件|*.wdic" />
+
+  <Item Key="CommonDialogNewSymbolDicTitle" Value="新建停顿记号字典" />
+  <Item Key="CommonDialogNewSymbolFilter" Value="停顿记号字典文件|*.sdic" />
+
+  <Item Key="CommonDialogNewEnglishWordDicTitle" Value="新建单词字典(英语)" /><!-- 追加 -->
+  <Item Key="CommonDialogNewEnglishWordDicFilter" Value="单词字典(英语)文件|*.wdic_en-US" /><!-- 追加 -->
+
+  <Item Key="CommonDialogNewChineseWordDicTitle" Value="新建单词字典(中文)" />
+  <Item Key="CommonDialogNewChineseWordDicFilter" Value="单词字典(中文)文件|*.wdic_en-US" />
+
+  <Item Key="CommonDialogNewVoicePresetDicTitle" Value="新建声库预设" />
+  <Item Key="CommonDialogNewVoicePresetFilter" Value="声库预设文件|*.vpc" />
+
+
+
+  <!-- Merge Dialog -->
+
+  <Item Key="MergeDialogTarget" Value="整合{0}" />
+  <Item Key="MergeDialogFile" Value="{0}文件" />
+  <Item Key="MergeDialogAllFile" Value="全选" />
+  <Item Key="MergeDialogPreferDestination" Value="当前选择对象优先" />
+  <Item Key="MergeDialogPreferSource" Value="原文件优先" />
+  <Item Key="MergeDialogAlreadyExists" Value="{0}已存在。" />
+  <Item Key="MergeDialogSelectRemaining" Value="请选择要保留的{0}。" />
+  <Item Key="MergeDialogOverwrite" Value="在{0}上覆盖进行整合。" />
+  <Item Key="MergeDialogRemain" Value="保留已注册的{0}。" />
+  <Item Key="MergeDialogConfirmTitle" Value="{0}的整合" />
+  <Item Key="MergeDialogFailedToMerge" Value="{0}整合失败。" />
+  <Item Key="MergeDialogMergeCanceled" Value="{0}的整合已取消。" />
+  <Item Key="MergeDialogFailedToWriting" Value="{0}的書込み失败" />
+  <Item Key="MergeDialogFailedToUpdate" Value="{0}更新失败。" />
+  <Item Key="MergeDialogShowReport" Value="显示报告" />
+  <Item Key="MergeDialogHideReport" Value="隐藏报告" />
+  <Item Key="MergeDialogResultDetail" Value="【整合详细结果】" />
+  <Item Key="MergeDialogNumberOfDestinations" Value="・整合目标的数量: {0}" />
+  <Item Key="MergeDialogNumberOfSources" Value="・整合源的数量: {0}" />
+  <Item Key="MergeDialogNumberOfRemained" Value="・复制时未更改的数量: {0}" />
+  <Item Key="MergeDialogNumberOfOverwrited" Value="・复制时覆盖的数量: {0}" />
+  <Item Key="MergeDialogNumberOfAdded" Value="・添加的数量: {0}" />
+  <Item Key="MergeDialogNumberOfTotal" Value="・整合后的合计数量: {0}" />
+  <Item Key="MergeDialogComplition" Value="{0}的整合结束。" />
+  <Item Key="MergeDialogDestination" Value="【整合目标】" />
+  <Item Key="MergeDialogSource" Value="【整合源】" />
+
+
+  <!-- Information Window -->
+
+  <Item Key="InformationWindowTitle" Value="通知" />
+  <Item Key="InformationWindowDontShowThis" Value="不显示该通知" />
+  <Item Key="InformationWindowNoInformation" Value="无新通知。"/>
+  <Item Key="InformationWindowOk" Value="OK" />
+
+
+  <!-- Update Window -->
+
+  <Item Key="UpdateWindowTitle" Value="应用程序更新信息" />
+  <Item Key="UpdateWindowCurrentVersion" Value=" 当前版本" />
+  <Item Key="UpdateWindowSeparater" Value="：" />
+  <Item Key="UpdateWindowReleasedVersion" Value=" 最新版本" />
+  <Item Key="UpdateWindowSkipThisVersion" Value="跳过此版本" />
+  <Item Key="UpdateWindowOk" Value="OK" />
+
+  
+  <!-- EnglishWordEdit Window -->
+
+  <Item Key="EnglishWordEditWindowTitle" Value="单词注册(英语)" /><!-- 追加 -->
+  <Item Key="EnglishWordEditWindowText" Value="写法" /><!-- 追加 -->
+  <Item Key="EnglishWordEditWindowKana" Value="读音" /><!-- 追加 -->
+  <Item Key="EnglishWordEditWindowRegister" Value="注册" /><!-- 追加 -->
+  <Item Key="EnglishWordEditWindowCancel" Value="取消" /><!-- 追加 -->
+
+  <!-- ChineseWordEdit Window -->
+
+  <Item Key="ChineseWordEditWindowTitle" Value="单词注册(中文)" />
+  <Item Key="ChineseWordEditWindowText" Value="写法" />
+  <Item Key="ChineseWordEditWindowKana" Value="读音" />
+  <Item Key="ChineseWordEditWindowRegister" Value="注册" />
+  <Item Key="ChineseWordEditWindowCancel" Value="取消" />
+
+
+  <!-- Message -->
+
+  <Item Key="MessageFailedToSetTheme" Value="窗口主题设置失败。" />
+  <Item Key="MessageThemeNotFound" Value="找不到指定的主题。" />
+
+  <Item Key="MessageWindowInitializeConfirm" Value="需要初始化窗口大小和位置吗？" />
+  <Item Key="MessageWindowInitializeCompletion" Value="窗口大小和位置已初始化" />
+
+  <Item Key="MessageFailedToRunDataConverter" Value="用户数据转换工具启动失败。" />
+  <Item Key="MessageDataConverterNotExist" Value="用户数据转换工具不存在。" />
+  
+  <Item Key="MessageFailedToShowUserManual" Value="用户菜单显示失败。" />
+  <Item Key="MessageUserManualNotExist" Value="用户菜单不存在" />
+
+  <Item Key="MessageFailedToGetInformation" Value="通知栏启动失败" />
+  <Item Key="MessageNoInformation" Value="现在没有新通知。" />
+
+  <Item Key="MessageFailedToCheckUpdate" Value="应用程序更新确认失败。" />
+  <Item Key="MessageNewVersionAvailable" Value="新版本可用。" />
+  <Item Key="MessageUsingLatestVersion" Value="当前版本是最新的。" />
+
+  <Item Key="MessageFailedToInitializeApiService" Value="API初始化失败。" />
+
+  <Item Key="MessageNotSaved" Value="以下的编辑内容还没有保存。" />
+  <Item Key="MessageTextNotSaved" Value="  ・输入文本" />
+  <Item Key="MessageProjectNotSaved" Value="  ・工程" />
+  <Item Key="MessageVoicePresetNotSaved" Value="  ・声库预设" />
+  <Item Key="MessagePhraseNotSaved" Value="  ・词组" />
+  <Item Key="MessageWordNotSaved" Value="  ・单词" />
+  <Item Key="MessageExitProgramConfirm" Value="是否确实要停止程序？" />
+
+  <Item Key="MessageFailedToSaveSettings" Value="设定保存失败" />
+
+  <Item Key="MessageFailedToReadSettings1" Value="程序设定读取失败。" />
+  <Item Key="MessageFailedToReadSettings2" Value="是否要初始化设置并启动程序？" />
+  <Item Key="MessageFailedToReadSettings3" Value="※若设置初始化，则先前的设置将丢失。" />
+  <Item Key="MessageFailedToReadSettings4" Value="但是，声库预设及用户字典的内容不会丢失" />
+
+  <Item Key="MessageFailedToReadKeySettings1" Value="快捷键设定的读取失败。" />
+
+  <Item Key="MessageFailedToActivateLicense" Value="许可证认证失败。" />
+  <Item Key="MessageRunLicenseManagerConfirm" Value="是否启动许可证管理器？" />
+  <Item Key="MessageFailedToRunLicenseManager" Value="许可证管理器启动失败" />
+
+  <Item Key="MessageFailedToInitializePhraseDic" Value="词组字典初始化失败" />
+  <Item Key="MessageFailedToInitializeWordDic" Value="单词字典初始化失败" />
+  <Item Key="MessageFailedToInitializeSymbolDic" Value="停顿记号字典初始化失败" />
+  <Item Key="MessageFailedToInitializeEnglishWordDic" Value="单词字典(英语)初始化失败" /><!-- 追加 -->
+  <Item Key="MessageFailedToInitializeChineseWordDic" Value="单词字典(中文)初始化失败" />
+  <Item Key="MessageFailedToInitializeVoicePreset" Value="声库预设初始化失败" />
+  <Item Key="MessageFailedToInitializeAudioDevice" Value="音频设备初始化失败" />
+
+  <Item Key="MessageImportVoicePresetCompletion" Value="声库预设已导入。" />
+  <Item Key="MessageFailedToImportVoicePreset" Value="声库预设导入失败。" />
+
+  <Item Key="MessageExportVoicePresetCompletion" Value="声库预设已导出。" />
+  <Item Key="MessageFailedToExportVoicePreset" Value="声库预设导出失败。" />
+
+  <Item Key="MessageFailedToUpdateVoicePreset" Value="声库预设保存失败" />
+
+  <Item Key="MessageFailedToSaveSymbolDic" Value="停顿记号字典保存失败" />
+
+  <Item Key="MessageFailedToSaveUserSettings" Value="设定保存失败" />
+  <Item Key="MessageFailedToSaveApplicationSettings" Value="应用程序设定保存失败" />
+  <Item Key="MessageFailedToReadApplicationSettings" Value="应用程序设定读取失败" />
+
+  <Item Key="MessageImportUserSettingsProjectModified" Value="工程正在被编辑。&#xA;如果导入设置，将废弃除文本以外的编辑。确定要这么做吗？" />
+  <Item Key="MessageImportUserSettingsCompletion" Value="设定已导入。" />
+  <Item Key="MessageFailedToImportUserSettings" Value="设定导入失败" />
+
+  <Item Key="MessageExportUserSettingsCompletion" Value="设定已导出。" />
+  <Item Key="MessageFailedToExportUserSettings" Value="设定导出失败" />
+
+  <Item Key="MessageInitializeUserSettingsConfirm" Value="要将设定初始化吗" />
+  <Item Key="MessageInitializeUserSettingsCompletion" Value="设定已初始化。" />
+  <Item Key="MessageFailedToInitializeUserSettings" Value="设定初始化失败" />
+
+  <Item Key="MessageListSentenceTerminatorMingled" Value="除了词组的末尾以外不能包含句末符号。&#xA;末尾以外的句号已被删除。" />
+
+  <Item Key="MessageCreateNewSymbolCompletion" Value="停顿记号已经被注册。" />
+
+  <Item Key="MessageDeleteSymbolConfirm" Value="要删除所选的停顿记号吗？" />
+  <Item Key="MessageDeleteSymbolsCompletion" Value="停顿记号已删除。" />
+  <Item Key="MessageFailedToDeleteSymbol" Value="停顿记号删除失败" />
+
+  <Item Key="MessagePreparingToPlayPhrase" Value="正在准备朗读词组。" />
+  <Item Key="MessagePlayPhrase" Value="正在朗读词组。" />
+  <Item Key="MessageFailedToPlayPhrase" Value="无法朗读出词组" />
+  <Item Key="MessageStoppedToPlayPhrase" Value="停止。" />
+  <Item Key="MessagePlayPhraseCompletion" Value="词组已朗读完" />
+  <Item Key="MessagePlayPhrasePaused" Value="暂停" />
+
+  <Item Key="MessagePhraseTerminatorMingled" Value="除了词组的末尾以外不能包含句末符号。&#xA;末尾以外的句号被删除。" />
+  <Item Key="MessagePhraseKansaiToStandardConfirm" Value="把关西腔转换成标准语(日语)可以吗？" />
+  <Item Key="MessagePhraseKansaiToStandardCompletion" Value="现在编辑中的词组的语调(重音)转换为标准语的语调(重音)了。" />
+  <Item Key="MessageJoinAccentWordConfirm" Value="是否要将所有的注音完全拼接起来？" />
+  <Item Key="MessageSplitAccentWordConfirm" Value="是否要将句子按注音完全分割？" />
+
+  <Item Key="MessageNotExistPhraseToEdit" Value="编辑中的词组不存在" />
+  <Item Key="MessageAlreadyExistPhraseToEdit" Value="编辑中的词组已被注册。" />
+  <Item Key="MessageOverwritePhraseConfirm" Value="是否要覆盖？" />
+  <Item Key="MessageFailedToRegisterPhrase" Value="词组注册失败" />
+  <Item Key="MessageRegisterPhraseCompletion" Value="词组注册完成。" />
+  <Item Key="MessageRewindPhraseConfirm" Value="要将词组恢复到编辑前的状态吗？" />
+
+  <Item Key="MessagePhraseNotRegisteredInDic" Value="包含注音的词组不能注册。" />
+  <Item Key="MessageDeletePhraseFromDicConfirm" Value="要将编辑中的词组从字典中删除吗？" />
+  <Item Key="MessageFailedToDeletePhraseFromDic" Value="词组删除失败" />
+  <Item Key="MessageDeletePhraseFromDicCompletion" Value="词组删除完成。" />
+
+  <Item Key="MessageCantEditPhraseWithRuby" Value="包含注音的词组不能编辑。" />
+  <Item Key="MessageCantEditPhraseWithCotrolTag" Value="包含控制tag的词组不能编辑。" />
+
+  <Item Key="MessageListTextEdited" Value="列表的读音正在被编辑。&#xA;要应用在列表上吗？" />
+
+  <Item Key="MessageFailedToGenerateKana" Value="假名生成失败" />
+
+  <Item Key="MessageSaveWaveBothAlreadyExist" Value="'{0}' 及'{1}' 已经存在。" />
+  <Item Key="MessageSaveWaveWaveAlreadyExist" Value="'{0}' 已经存在。" />
+  <Item Key="MessageSaveWaveTextAlreadyExist" Value="'{0}' 已经存在。" />
+  <Item Key="MessageSaveWaveFollowingAlreadyExist" Value="以下文件已存在。" />
+  <Item Key="MessageSaveWaveOverwriteConfirm" Value="是否替换？" />
+  <Item Key="MessageSaveWaveAnd" Value="'{0}' 及 '{1}'" />
+
+  <Item Key="MessageSaveWaveAlreadyExist" Value="{0} 已经存在。" />
+  <Item Key="MessageSaveWaveSelectFileToKeep" Value="请选择要保留的文件。" />
+  <Item Key="MessageSaveWaveKeepNewFile" Value="用新的文件覆盖。" />
+  <Item Key="MessageSaveWaveKeepExistingFile" Value="保留已存在的文件。" />
+  <Item Key="MessageSaveWaveMessageTitle" Value="文件保存" />
+
+  <Item Key="MessageSaveWaveNamingRuleOverwrite" Value="要废弃当前的输入内容，设定所选的命名规则？" />
+  <Item Key="MessageSaveWaveDilectSave" Value="要按照工程设定的[保存音频]的内容进行保存吗？" />
+  <Item Key="MessageSaveWaveNamingRuleEmpty" Value="没有设置保存音频的输出文件夹・命名规则。" />
+  <Item Key="MessageSaveWaveReadNamingRulePresetFailed" Value="保存音频的命名规则导入失败" />
+
+  <Item Key="MessageFailedToSaveWave" Value="合成音频保存失败" />
+  <Item Key="MessageSaveWaveCanceled" Value="取消合成音频的保存。" />
+  <Item Key="MessageSaveWaveCompletion" Value="合成音频已保存。" />
+
+  <Item Key="MessageNotSupportPerDelim" Value="从列表保存音频不支持字分隔符。&#xA;更改每一句的输出" />
+  <Item Key="MessageDeleteListRowConfirm" Value="是否要删除所选行？" />
+  <Item Key="MessageAnalyzeTextConfirm" Value="从标记开始进行日语解析。调音内容将被重置。&#xA;是否确实要执行？" />
+  <Item Key="MessageUndefinedPresetName" Value="指定了无效的声库预设名称的项目存在。&#xA;该项目将从处理对象中排除。" />
+
+  <Item Key="MessageSymbolAlreadyExist" Value="指定的标记已经被注册了。" />
+  <Item Key="MessageFailedToRegisterSymbol" Value="停顿记号注册失败" />
+
+  <Item Key="MessagePreparingToPlayText" Value="正在准备朗读文本。" />
+  <Item Key="MessagePlayText" Value="朗读文本。" />
+  <Item Key="MessageFailedToPlayText" Value="无法朗读出文本" />
+  <Item Key="MessageStoppedToPlayText" Value="停止" />
+  <Item Key="MessagePlayTextCompletion" Value="文本已朗读完" />
+  <Item Key="MessagePlayTextPaused" Value="暂停" />
+
+  <Item Key="MessageFailedToCalculateTime" Value="计算播放时间失败" />
+  <Item Key="MessageCalculateTimeResult" Value="播放时间是 {0} 秒（{1}:{2:D2}.{3:D3}）。" />
+  <Item Key="MessageCalculateTimeResultNotes" Value="※播放时间不包含开始时的停顿和停止时的停顿。" />
+  <Item Key="MessageCalculateTimeEditedPhraseWord" Value="词组编辑以及单词编辑的内容已被更改。" />
+  <Item Key="MessageCalculateTimeEditedPhraseWordNotes" Value="继续处理的话，编辑中的词组被废弃。" />
+  <Item Key="MessageCalculateTimeContinueConfirm" Value="要继续处理吗？" />
+  <Item Key="MessageCalculateTimeEditedPhrase" Value="词组编辑的内容已被更改。" />
+  <Item Key="MessageCalculateTimeEditedPhraseNotes" Value="继续处理的话，编辑中的词组被废弃。" />
+  <Item Key="MessageCalculateTimeEditedWord" Value="单词编辑的内容已被更改。" />
+
+  <Item Key="MessageFailedToOpenText" Value="文本导入失败" />
+  <Item Key="MessageTextEditing" Value="正在编辑文本。" />
+  <Item Key="MessageDiscardTextEditingConfirm" Value="是否要废弃当前内容？" />
+
+  <Item Key="MessageFailedToSaveText" Value="文本保存失败" />
+
+  <Item Key="MessageFailedToOpenKana" Value="假名文件导入失败" />
+  <Item Key="MessageKanaEditing" Value="正在编辑假名。" />
+  <Item Key="MessageDiscardKanaEditingConfirm" Value="是否要废弃当前内容？" />
+
+  <Item Key="MessageFailedToSaveKana" Value="假名文件保存失败" />
+
+  <Item Key="MessageOpenProjectComplition" Value="打开工程。" />
+  <Item Key="MessageCreateNewProjectComplition" Value="新建工程。" />
+  <Item Key="MessageSaveProjectComplition" Value="工程已被覆盖并保存。" />
+  <Item Key="MessageSaveProjectAsComplition" Value="工程已保存。" />
+  <Item Key="MessageExportProjectComplition" Value="工程已导出。" />
+
+  <Item Key="MessageExportProjectFileOvewriteConfirm" Value="导出目标中存在同名文件。&#xA;确定要覆盖吗？" />
+  <Item Key="MessageExportProjectFolderExistConfirm" Value="指定的目录中存在文本或文本夹。&#xA;确定要继续进行吗？" />
+  <Item Key="MessageProjectModifiedConfirm" Value="工程正在被编辑&#xA;是否要废弃当前编辑内容？" />
+  <Item Key="MessageUserDicRelativeToDefault" Value="某些文件是在相对路径中指定的，因此它们被更改为引用标准文件。" />
+
+  <Item Key="MessageProjectFileNotFound" Value="找不到工程文件。" />
+  <Item Key="MessageFailedToCreateNewProject" Value="新建工程失败" />
+  <Item Key="MessageFailedToOpenProject" Value="工程打开失败" />
+  <Item Key="MessageFailedToSaveProject" Value="工程覆盖失败" />
+  <Item Key="MessageFailedToSaveProjectAs" Value="工程保存失败" />
+  <Item Key="MessageFailedToExportProject" Value="工程导出失败" />
+
+  <Item Key="MessagePhraseEdited" Value="词组编辑的内容已经被更改。" />
+  <Item Key="MessageDiscardPhraseEditingConfirm" Value="是否要废弃编辑中的词组？" />
+  <Item Key="MessageWordEdited" Value="单词编辑的内容已经被更改。" />
+  <Item Key="MessageDiscardWordEditingConfirm" Value="是否要废弃编辑中的单词？" />
+
+  <Item Key="MessageDeleteUserDicItemConfirm" Value="选择中的{0}是否要删除？" />
+  <Item Key="MessageFailedToDeleteUserDicItem" Value="{0}删除失败" />
+  <Item Key="MessageDeleteUserDicItemComplition" Value="{0}删除成功。" />
+
+  <Item Key="MessageVoicePresetVoiceNotSelected" Value="没有选择说话者。" />
+  <Item Key="MessageVoicePresetEnterPresetName" Value="请输入声库预设名称。" />
+
+  <Item Key="MessageVoicePresetCantContainTerminator" Value="声库预设名称中不能包含句末记号。" />
+  <Item Key="MessageVoicePresetPresetNameConflict" Value="同名的声库预设已存在。&#xA;请指定不重复的名称。" />
+  <Item Key="MessageVoicePresetSaveSettingsWithNameConfirm" Value="更改声库预设名称的话，声库预设的设定值会被保存。&#xA;确定要修改声库预设名称吗？" />
+  <Item Key="MessageVoicePresetEditPresetNameComplition" Value="声库预设名称已更改。" />
+  <Item Key="MessageVoicePresetUsableVoiceNotFound" Value="没有可用的声库。" />
+  <Item Key="MessageVoicePresetVoiceFusionDuplicate" Value="声库预设的融合设定被解除。" />
+  <Item Key="MessageVoicePresetSaveSettingsConfirm" Value="要可以保存声库预设的设定值吗？" />
+  <Item Key="MessageVoicePresetSaveSettingsComplition" Value="保存声库预设的设定值。" />
+  <Item Key="MessageVoicePresetRevertSettings" Value="将声库预设的设定值恢复到编辑前。" />
+  <Item Key="MessageVoicePresetRevertSettingsToDefault" Value="初始化声库预设的设定值" />
+
+  <Item Key="MessageVoicePresetNotSelectedCopySource" Value="未选择复制源声库预设" />
+  <Item Key="MessageVoicePresetCreateCopyConfirm" Value="要创建所选声库预设的副本吗" />
+  <Item Key="MessageVoicePresetDeleteConfirm" Value="要删除所选的声库预设吗" />
+  <Item Key="MessageVoicePresetResetConfirm" Value="要将声库预设全部初化吗？" />
+
+  <Item Key="MessagePreparingToPlayWord" Value="准备朗读单词。" />
+  <Item Key="MessagePlayWord" Value="正在朗读单词。" />
+  <Item Key="MessageFailedToPlayWord" Value="无法朗读出单词。" />
+  <Item Key="MessageStoppedToPlayWord" Value="停止。" />
+  <Item Key="MessagePlayWordCompletion" Value="单词已朗读完。" />
+
+  <Item Key="MessageWordKansaiToStandardConfirm" Value="要把关西腔转换成标准语(日语)吗？" />
+  <Item Key="MessageWordKansaiToStandardCompletion" Value="现在编辑中的单词的语调(重音)转换为标准语的语调(重音)了。" />
+  <Item Key="MessagePlayWordPaused" Value="暂停" />
+
+  <Item Key="MessageNotExistWordToEdit" Value="编辑中的单词不存在。" />
+  <Item Key="MessageAlreadyExistWordToEdit" Value="编辑中的单词已被注册。" />
+  <Item Key="MessageOverwriteWordConfirm" Value="确定要覆盖吗？" />
+  <Item Key="MessageFailedToRegisterWord" Value="单词注册失败" />
+  <Item Key="MessageRegisterWordCompletion" Value="单词注册成功。" />
+
+  <Item Key="MessageWordNotRegisteredInDic" Value="编辑中的单词没有在字典中被注册。" />
+  <Item Key="MessageDeleteWordFromDicConfirm" Value="将编辑中的单词从字典中删除吗？" />
+  <Item Key="MessageFailedToDeleteWordFromDic" Value="单词删除失败" />
+  <Item Key="MessageDeleteWordFromDicCompletion" Value="单词删除成功。" />
+
+  <Item Key="MessageWordEraseConfirm" Value="要删除当前输入的内容吗？" />
+  <Item Key="MessageWordEraseComplition" Value="要删除单词编辑中的内容" />
+  <Item Key="MessageWordContinueConfirm" Value="要继续处理吗？" />
+
+  <Item Key="MessagePreparingToPlayKana" Value="准备朗读假名。" />
+  <Item Key="MessagePlayKana" Value="正在朗读假名。" />
+  <Item Key="MessageFailedToPlayKana" Value="无法朗读出假名" />
+  <Item Key="MessageStoppedToPlayKana" Value="停止" />
+  <Item Key="MessagePlayKanaCompletion" Value="假名已朗读完" />
+  <Item Key="MessagePlayKanaPaused" Value="暂停" />
+
+  <Item Key="MessageAuthenticationSwitchOfflineModeConfirm" Value="是否要转到离线认证模式？" />
+  <Item Key="MessageAuthenticationGetLicense" Value="正在获得许可证" />
+  <Item Key="MessageAuthenticationFailedToActivation" Value="激活失败" />
+  <Item Key="MessageAuthenticationActivationComplition" Value="激活成功。" />
+  <Item Key="MessageAuthenticationActivateLaterConfirm" Value="之后再激活吗？" />
+
+  <Item Key="MessageAuthenticationFailedToGetFingerPrint" Value="机器固有信息获取失败" />
+  <Item Key="MessageAuthenticationFailedToSaveFingerPrint" Value="机器固有信息保存失败" />
+  <Item Key="MessageAuthenticationSaveFingerPrintComplition" Value="已将机器固有信息保存到文件中。" />
+  <Item Key="MessageAuthenticationOpenSavedFolderConfirm" Value="是否打开保存的文件夹？" />
+
+  <Item Key="MessageAuthenticationFailedToReadLicense" Value="许可证读取失败" />
+  <Item Key="MessageAuthenticationFailedToApplyLicense" Value="许可证适用失败" />
+  <Item Key="MessageAuthenticationCheckLicenseFile" Value="请确认指定的许可证文件是否有错误。" />
+  <Item Key="MessageAuthenticationApplyLicenseComplition" Value="许可证已适用" />
+
+  <Item Key="MessageFailedToCreatePhraseDic" Value="词组字典文件创建失败" />
+  <Item Key="MessagePhraseDicPathChanged" Value="词组字典的保存路径已更改。" />
+  <Item Key="MessageSaveSettingsAndMergePhraseDic" Value="在整合词组字典之前保存设置。" />
+  <Item Key="MessagePhraseDicNotFound" Value="词组字典不存在。" />
+
+  <Item Key="MessageFailedToCreateWordDic" Value="单词字典文件创建失败" />
+  <Item Key="MessageWordDicPathChanged" Value="单词字典的保存路径已更改。" />
+  <Item Key="MessageSaveSettingsAndMergeWordDic" Value="在整合单词字典之前保存设置。" />
+  <Item Key="MessageWordDicNotFound" Value="单词字典不存在。" />
+
+  <Item Key="MessageFailedToCreateEnglishWordDic" Value="单词字典(英语)文件创建失败" /><!-- 追加 -->
+  <Item Key="MessageEnglishWordDicPathChanged" Value="单词字典(英语)的保存路径已更改。" /><!-- 追加 -->
+  <Item Key="MessageSaveSettingsAndMergeEnglishWordDic" Value="在整合单词字典(英语)之前保存设置。" /><!-- 追加 -->
+  <Item Key="MessageEnglishWordDicNotFound" Value="单词字典(英语)不存在" /><!-- 追加 -->
+
+  <Item Key="MessageFailedToCreateChineseWordDic" Value="单词字典(中文)文件的创建失败" />
+  <Item Key="MessageChineseWordDicPathChanged" Value="单词字典(中文)的保存路径已更改。" />
+  <Item Key="MessageSaveSettingsAndMergeChineseWordDic" Value="在整合单词字典(英语)之前保存设置。" />
+  <Item Key="MessageChineseWordDicNotFound" Value="单词字典(中文)不存在" />
+
+  <Item Key="MessageFailedToCreateSymbolDic" Value="停顿记号字典文件的创建失败" />
+  <Item Key="MessageSymbolDicPathChanged" Value="停顿记号字典的保存路径已更改。" />
+  <Item Key="MessageSaveSettingsAndMergeSymbolDic" Value="在整合停顿记号字典之前保存设置。" />
+  <Item Key="MessageSymbolDicNotFound" Value="停顿记号字典不存在" />
+
+  <Item Key="ValidateLangDicSettingsInvalidPhraseDicPath" Value="词组字典的路径不正确。" />
+  <Item Key="ValidateLangDicSettingsInvalidWordDicPath" Value="单词字典的路径不正确。" />
+  <Item Key="ValidateLangDicSettingsInvalidSymbolDicPath" Value="停顿记号字典的路径不正确。" />
+
+  <Item Key="MessageSettingsAudioDeviceInfoNotFound" Value="无法获取音频设备信息。" />
+  <Item Key="MessageSettingsCheckAudioDeviceConnected" Value="请确认音频设备是否正确连接。" />
+
+  <Item Key="MessageFailedToCreateVoicePreset" Value="声库预设文件创建失败" />
+  <Item Key="MessageVoicePresetPathChanged" Value="声库预设文件的保存路径已更改。" />
+  <Item Key="MessageSaveSettingsAndMergeVoicePreset" Value="在整合声库预设文件之前保存设置。" />
+  <Item Key="MessageVoicePresetNotFound" Value="声库预设文件不存在" />
+
+  <Item Key="ValidateVoicePresetSettingsInvalidVoicePresetPath" Value="声库预设的路径不正确。" />
+  <Item Key="ValidateVoicePresetSettingsPromptStringEnpty" Value="未指定声库预设的提示字符串。" />
+
+  <Item Key="MessageFailedToOpenLink" Value="链接打开失败" />
+
+  <Item Key="MessageEffectExpansionDisabled" Value="关闭音频效果值的输入范围扩展。&#xA;全局参数·声库预设·编辑中的词组的音效值中，标准范围外的值被修正为最大值或最小值。" />
+
+  <Item Key="MessageSaveWaveTrialInformation" Value="在体验版的音频文件中插入demo音频。" />
+
+  <Item Key="MessageErrorRemoteHostBusy" Value="主机程序处于繁忙状态，无法处理。" />
+  <Item Key="MessageErrorOnlySingleSelection" Value="只有在列表编辑模式下选择单行时，才能执行此功能。" />
+  <Item Key="MessageErrorOutOfRangeIndex" Value="指定了超出范围的索引。" />
+  <Item Key="MessageErrorMergedVoiceNotExist" Value="指定为融合对象的声库 {0} 不存在。" />
+  <Item Key="MessageErrorPitchBaseVoiceNotExist" Value="作为音高基准的声库 {0} 不存在。" />
+  <Item Key="MessageErrorPitchBaseVoiceInvalid" Value="作为音高基准声库的 {0} 既不是原音库也不是融合的音库。" />
+  <Item Key="MessageErrorVoicePresetNotExist" Value="指定的声库预设 {0} 不存在。" />
+  <Item Key="MessageErrorVoiceNotExist" Value="指定的声库 {0} 不存在。" />
+  <Item Key="MessageErrorVoicePresetAlreadyExist" Value="指定的声库预设 {0} 已经存在了。" />
+  <Item Key="MessageErrorVoiceNotSpecified" Value="未指定声库。" />
+  <Item Key="MessageErrorVoicePresetNotSpecified" Value="未指定声库预设。" />
+  <Item Key="MessageErrorOriginalAndMergedAreSameVoice" Value="原声库被指定为要被融合的声库。" />
+
+  <!-- ToolTip -->
+
+  <Item Key="ToolTipErrorInfo-Copy" Value="将错误信息复制到剪贴板。" />
+  <Item Key="ToolTipErrorInfo-Ok" Value="关闭错误信息对话框。" />
+
+  <Item Key="ToolTipAuthentication-MoveToOfflineMode" Value="转到离线激活。&#xA;如果您的电脑无法连接互联网，请使用离线激活。" />
+  <Item Key="ToolTipAuthentication-MoveToOnlineMode" Value="转到在线激活。" />
+  <Item Key="ToolTipAuthentication-ProductList" Value="声库列表&#xA;显示未激活的产品。" />
+  <Item Key="ToolTipAuthentication-ActivationKey" Value="请输入20位字母和数字构成的激活码。&#xA;不区分大小写，也不区分0（零）和O（O）。" />
+  <Item Key="ToolTipAuthentication-Ok" Value="使用指定的激活码进行声库在线激活。&#xA;需要联网。" />
+  <Item Key="ToolTipAuthentication-Cancel" Value="不激活，直接启动应用程序。" />
+  <Item Key="ToolTipAuthentication-GetFingerPrint" Value="获取计算机特定信息并将其保存到指定的文档中。" />
+  <Item Key="ToolTipAuthentication-ApplyLicense" Value="将指定许可文件中包含的许可证应用于当前计算机环境。" />
+
+  <Item Key="ToolTipFile-CreateNewText" Value="新建文本。" />
+  <Item Key="ToolTipFile-OpenText" Value="打开文本文件。" />
+  <Item Key="ToolTipFile-SaveText" Value="保存文本文件。" />
+  <Item Key="ToolTipFile-SaveAsText" Value="文本文件另存为す。" />
+  <Item Key="ToolTipFile-CreateNewKana" Value="新建假名。" />
+  <Item Key="ToolTipFile-OpenKana" Value="打开假名文件。" />
+  <Item Key="ToolTipFile-SaveKana" Value="保存假名文件。" />
+  <Item Key="ToolTipFile-SaveAsKana" Value="假名文件另存为。" />
+  <Item Key="ToolTipFile-CreateNewProject" Value="新建工程。" />
+  <Item Key="ToolTipFile-OpenProject" Value="打开工程。" />
+  <Item Key="ToolTipFile-SaveProject" Value="保存工程。" />
+  <Item Key="ToolTipFile-SaveAsProject" Value="工程另存为。" />
+  <Item Key="ToolTipFile-ExportProject" Value="将工程文件和使用的用户字典汇总导出。" />
+  <Item Key="ToolTipFile-RecentProject" Value="最近打开的工程。" />
+  <Item Key="ToolTipFile-ImportUserSettings" Value="导入应用程序的设定。" />
+  <Item Key="ToolTipFile-ExportUserSettings" Value="将应用程序的设定导出。" />
+  <Item Key="ToolTipFile-Exit" Value="停止程序。" />
+
+  <Item Key="ToolTipEdit-Undo" Value="将文本编辑操作还原。" />
+  <Item Key="ToolTipEdit-Redo" Value="将文本编辑操作重做" />
+  <Item Key="ToolTipEdit-Cut" Value="剪切选定的文本并将其保存到剪贴板。" />
+  <Item Key="ToolTipEdit-Copy" Value="将选定的文本复制到剪贴板。" />
+  <Item Key="ToolTipEdit-Paste" Value="粘贴剪贴板上保存的文本。" />
+  <Item Key="ToolTipEdit-Remove" Value="删除选定的文本。" />
+  <Item Key="ToolTipEdit-SelectAll" Value="选择全部的文本。" />
+
+  <Item Key="ToolTipTextEdit-Play" Value="从输入文本中的光标位置朗读文本。&#xA;在读文本时执行的话，将暂时停止。" />
+  <Item Key="ToolTipTextEdit-Stop" Value="中止朗读文本。" />
+  <Item Key="ToolTipTextEdit-MoveToBeginning" Value="将光标移动到文本的开头。" />
+  <Item Key="ToolTipTextEdit-MoveToEnd" Value="将光标移动到文本结果头。" />
+  <Item Key="ToolTipTextEdit-GenerateKana" Value="根据文本生成假名" />
+  <Item Key="ToolTipTextEdit-SaveWave" Value="根据朗读的文本生成音频并保存为文件。" />
+  <Item Key="ToolTipTextEdit-Time" Value="根据朗读的文本计算音频长度。" />
+  <Item Key="ToolTipTextEdit-AddVoicePresetChange" Value="在光标所在的段落的开头追加声库预设tag。" />
+  <Item Key="ToolTipTextEdit-RemoveVoicePresetChange" Value="从光标所在的段落中删除声库预设tag。" />
+  <Item Key="ToolTipTextEdit-InsertRuby" Value="以所选文本作为父字符开始编辑注音&#xA;※注音不能修正关西腔的语调(重音)。" />
+  <Item Key="ToolTipTextEdit-CreateNewWord" Value="以被选择的文本为写法，编辑单词。" />
+  <Item Key="ToolTipTextEdit-TextToList" Value="将文本添加到列表末尾。" />
+
+  <Item Key="ToolTipTextEdit-ListPlay" Value="读出选择行。&#xA;在读文本时执行的话，将暂时停止。" />
+  <Item Key="ToolTipTextEdit-ListStop" Value="中止朗读文本。" />
+  <Item Key="ToolTipTextEdit-ListMoveToBeginning" Value="移动到列表的开头行。" />
+  <Item Key="ToolTipTextEdit-ListMoveToEnd" Value="移动到列表的最终行。" />
+  <Item Key="ToolTipTextEdit-ListSaveWave" Value="将选择行的音频保存到文件中。" />
+  <Item Key="ToolTipTextEdit-ListTime" Value="计算选择行的音频的长度" />
+  <Item Key="ToolTipTextEdit-ListToText" Value="将选择行添加到文本输入栏的末尾。" />
+
+  <Item Key="ToolTipTextEdit-ListSelectAll" Value="全选列表中所有行" />
+  <Item Key="ToolTipTextEdit-ListSelectCurrentPreset" Value="全选与选择行相同声库预设的行。" />
+  <Item Key="ToolTipTextEdit-ListSetVoicePreset" Value="为所选行分配当前的声库预设。" />
+  <Item Key="ToolTipTextEdit-ListInsert" Value="在当前行中插入新行。" />
+  <Item Key="ToolTipTextEdit-ListRemove" Value="删除选择行。" />
+  <Item Key="ToolTipTextEdit-ListCut" Value="保留所选行信息。执行粘贴时删除所选行。" />
+  <Item Key="ToolTipTextEdit-ListCopy" Value="保留所选行信息。" />
+  <Item Key="ToolTipTextEdit-ListPaste" Value="插入复制或剪切的行。" />
+  
+  <Item Key="ToolTipSaveWave-Ok" Value="将音频合成的结果保存到文件中。" />
+  <Item Key="ToolTipSaveWave-Cancel" Value="关闭对话框" />
+
+  <Item Key="ToolTipMasterControl-Volume" Value="音量&#xA;最大值 5.00&#xA;最小值 0.00&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-VolumeExpanded" Value="音量&#xA;最大值 5.00&#xA;最小值 0.00&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-Speed" Value="语速&#xA;最大值 4.00&#xA;最小值 0.50&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-SpeedExpanded" Value="语速&#xA;最大值 5.00&#xA;最小值 0.10&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-Pitch" Value="音高&#xA;最大值 2.00&#xA;最小值 0.50&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-PitchExpanded" Value="音高&#xA;最大值 5.00&#xA;最小值 0.10&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-PitchRange" Value="抑扬&#xA;最大值 2.00&#xA;最小值 0.00&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-PitchRangeExpanded" Value="抑扬&#xA;最大值 5.00&#xA;最小值 0.00&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-MiddlePause" Value="短停顿的长度&#xA;最大值 500&#xA;最小值 80&#xA;初始值 150&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-LongPause" Value="长停顿的长度&#xA;最大值 2000&#xA;最小值 80&#xA;初始值 370&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-SentencePause" Value="句末停顿的长度&#xA;最大值 10000&#xA;最小值 0&#xA;初始值 800&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipMasterControl-Reset" Value="初始化全局参数的设定值。" />
+
+  <Item Key="ToolTipSymbolEdit-List" Value="停顿记号列表&#xA;通过拖放将停顿记号插入到输入文本中。" />
+  <Item Key="ToolTipSymbolEdit-CreateNew" Value="停顿记号新建。" />
+  <Item Key="ToolTipSymbolEdit-Edit" Value="编辑被选择的停顿记号的注册内容。" />
+  <Item Key="ToolTipSymbolEdit-Remove" Value="从字典中删除选中的停顿记号。" />
+  <Item Key="ToolTipSymbolEdit-SelectAll" Value="全选停顿记号。" />
+
+  <Item Key="ToolTipVoicePresetList-List" Value="声库预设列表&#xA;选择要用作默认声库预设的声库预设&#xA;通过拖放将声库预设tag插入到输入文本中。&#xA;星号表示尚未保存声库预设设置。" />
+  <Item Key="ToolTipVoicePresetList-FilterText" Value="输入字符串以按声库预设名称筛选声库预设列表。" />
+  <Item Key="ToolTipVoicePresetList-VoiceFilter" Value="显示一个窗口，用于选择声库以筛选声库预设列表。" />
+  <Item Key="ToolTipVoicePresetList-ClearFilter" Value="取消声库预设列表中的所有筛选。" />
+  <Item Key="ToolTipVoicePresetList-CreateNew" Value="新建用户声库预设。" />
+  <Item Key="ToolTipVoicePresetList-Copy" Value="复制被选择的声库预设，创建新的用户声库预设。" />
+  <Item Key="ToolTipVoicePresetList-Remove" Value="删除选中的用户声库预设。" />
+  <Item Key="ToolTipVoicePresetList-SelectAll" Value="选择所有默认或用户声库预设。" />
+  <Item Key="ToolTipVoicePresetList-InitializeVoicePresetCollection" Value="重置默认声库预设中的所有设置。" />
+
+  <Item Key="ToolTipVoicePresetEdit-PresetName" Value="声库预设的名称&#xA;如果要更改，请在此处输入新名称&#xA;如果要在编辑声库预设名称时取消该名称，请按ESC键。&#xA;更改声库预设名称时，声库预设的设定值将自动保存。" />
+  <Item Key="ToolTipVoicePresetEdit-Voice" Value="当前选择的声库&#xA;变更时请点击这个按钮选择声库。" />
+  <Item Key="ToolTipVoicePresetEdit-Save" Value="保存声库预设的设定值。&#xA;声库预设的设定值没有保存时，在程序停止时会丢失。" />
+  <Item Key="ToolTipVoicePresetEdit-Load" Value="将声库预设的设定值恢复到最后保存的值。" />
+  <Item Key="ToolTipVoicePresetEdit-Reset" Value="初始化声库预设的设定值" />
+  <Item Key="ToolTipVoicePresetEdit-Volume" Value="音量&#xA;最大值 2.00&#xA;最小值 0.00&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-VolumeExpanded" Value="音量&#xA;最大值 2.00&#xA;最小值 0.00&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-Speed" Value="语速&#xA;最大值 4.00&#xA;最小值 0.50&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-SpeedExpanded" Value="语速&#xA;最大值 5.00&#xA;最小值 0.10&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-Pitch" Value="音高&#xA;最大值 2.00&#xA;最小值 0.50&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-PitchExpanded" Value="音高&#xA;最大值 5.00&#xA;最小值 0.10&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-PitchRange" Value="抑扬&#xA;最大值 2.00&#xA;最小值 0.00&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-PitchRangeExpanded" Value="抑扬&#xA;最大值 5.00&#xA;最小值 0.00&#xA;初始值 1.00&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-MiddlePause" Value="短停顿的长度&#xA;最大值 500&#xA;最小值 80&#xA;初始值 150&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-LongPause" Value="长停顿的长度&#xA;最大值 2000&#xA;最小值 80&#xA;初始值 370&#xA;点击标题，或者Ctrl+点击滑块来设置为初始值。" />
+  <Item Key="ToolTipVoicePresetEdit-IsPauseEnabled" Value="如果指定每个声库预设独立的停顿的长度时，请仔细检查。" />
+
+  <Item Key="ToolTipPhraseEdit-Basic" Value="在这里，您可以进行基本调整，包括语调(重音)调整。" />
+  <Item Key="ToolTipPhraseEdit-Volume" Value="调整每个短语的音量。" />
+  <Item Key="ToolTipPhraseEdit-Speed" Value="调整每个短语的语速。" />
+  <Item Key="ToolTipPhraseEdit-Pitch" Value="调整每个短语的音高。" />
+  <Item Key="ToolTipPhraseEdit-PitchRange" Value="调整每个短语的抑扬。" />
+
+  <Item Key="ToolTipPhraseEdit-Text" Value="显示和编辑词组写法。" />
+  <Item Key="ToolTipPhraseEdit-PhraseTail" Value="调整词组末尾。&#xA;只能调整包含句末符号的词组。" />
+
+  <Item Key="ToolTipPhraseEdit-Play" Value="朗读编辑中的词组&#xA;在读文本时执行的话，将暂时停止。" />
+  <Item Key="ToolTipPhraseEdit-Stop" Value="停止朗读编辑中的词组。" />
+  <Item Key="ToolTipPhraseEdit-Add" Value="将编辑中的词组注册到字典中。&#xA;在字典中注册该词组之前，该词组在输入文本中无效。" />
+  <Item Key="ToolTipPhraseEdit-Remove" Value="从字典中删除编辑中的词组。" />
+  <Item Key="ToolTipPhraseEdit-List" Value="显示词组列表窗口。" />
+  <Item Key="ToolTipPhraseEdit-Rewind" Value="将编辑中的词组恢复到到编辑前的状态。" />
+  <Item Key="ToolTipPhraseEdit-ChangeAccent" Value="把全部的内容从关西腔转换为标准语(日语)。" />
+  <Item Key="ToolTipPhraseEdit-ToList" Value="将词组编辑应用于列表。" />
+  <Item Key="ToolTipPhraseEdit-RemovePause" Value="删除编辑中的词组中的所有停顿。" />
+  <Item Key="ToolTipPhraseEdit-KanaRetake" Value="根据当前写法执行日语分析。&#xA;会重置词组的调音状态。" />
+
+  <Item Key="ToolTipWordEdit-Text" Value="输入单词的写法" />
+  <Item Key="ToolTipWordEdit-Yomi" Value="输入单词的读音&#xA;改变读音的话，单词的语调会被初始化。" />
+  <Item Key="ToolTipWordEdit-SelectHinshi" Value="显示选择单词词性的对话框。" />
+  <Item Key="ToolTipWordEdit-LongVowelsCandidate" Value="一些的音节可以使用长音来发出更自然的读音。 例）トウキョウ => トーキョー&#xA;对于输入的读音，如果有长音修正候补项，则显示候补项，按下适用按钮后，会反映到读音中。" />
+  <Item Key="ToolTipWordEdit-IsPriorityEnabled" Value="变更单词的优先度时请先检查。&#xA;※尽可能将优先度保持为默认值。" />
+  <Item Key="ToolTipWordEdit-Priority" Value="选择单词的优先度。" />
+
+  <Item Key="ToolTipWordEdit-Play" Value="朗读编辑中的单词。&#xA;在读文本时执行的话，将暂时停止。" />
+  <Item Key="ToolTipWordEdit-Stop" Value="停止朗读编辑中的单词。" />
+  <Item Key="ToolTipWordEdit-Add" Value="将编辑中的单词注册到字典中。&#xA;在字典中注册该单词之前，该单词在输入文本中无效。" />
+  <Item Key="ToolTipWordEdit-Remove" Value="从字典中删除编辑中的单词。" />
+  <Item Key="ToolTipWordEdit-List" Value="显示单词列表窗口。" />
+  <Item Key="ToolTipWordEdit-Clear" Value="删除当前所有的输入值。" />
+  <Item Key="ToolTipWordEdit-ChangeAccent" Value="把全部的内容从关西腔转换为标准语(日语)。" />
+
+  <Item Key="ToolTipEnglishWordEdit-Text" Value="输入单词写法。只能输入字母。" /><!-- 追加 -->
+  <Item Key="ToolTipEnglishWordEdit-Pronunciation" Value="输入单词的读音。输入规则请浏览用户手册。" /><!-- 追加 -->
+  <Item Key="ToolTipEnglishWordEdit-Register" Value="将输入的单词注册到字典中" /><!-- 追加 -->
+  <Item Key="ToolTipEnglishWordEdit-Cancel" Value="不进行单词的注册，直接关闭窗口。" /><!-- 追加 -->
+
+  <Item Key="ToolTipChineseWordEdit-Text" Value="输入单词写法。只能输入汉字。" />
+  <Item Key="ToolTipChineseWordEdit-Pronunciation" Value="输入单词的读音。输入规则请浏览用户手册。" />
+  <Item Key="ToolTipChineseWordEdit-Register" Value="将输入的单词注册到字典中" />
+  <Item Key="ToolTipChineseWordEdit-Cancel" Value="不进行单词的注册，直接关闭窗口。" />
+
+  <Item Key="ToolTipKanaEdit-Play" Value="读出假名。&#xA;在读文本时执行的话，将暂时停止。" />
+  <Item Key="ToolTipKanaEdit-Stop" Value="停止朗读假名。" />
+  <Item Key="ToolTipKanaEdit-SaveWave" Value="将朗读假名的音频保存在文件中。" />
+  <Item Key="ToolTipKanaEdit-Time" Value="计算朗读假名的音频的长度。" />
+
+  <Item Key="ToolTipSettings-Ok" Value="保存设置并关闭设置窗口。" />
+  <Item Key="ToolTipSettings-Cancel" Value="不保存设定，直接关闭设定窗口。" />
+
+  <Item Key="ToolTipSettings-Voice-VoiceDicSamplesPerSec" Value="指定要使用的音频字典的采样率。" />
+  <Item Key="ToolTipSettings-Voice-VoicePresetCollectionPath" Value="指定声库预设文件路径。" />
+  <Item Key="ToolTipSettings-Voice-CreateNewVoicePresetCollection" Value="新建声库预设文件。" />
+  <Item Key="ToolTipSettings-Voice-MergeVoicePresetCollection" Value="将现在使用中的声库预设文件与已存在的声库预设文件的内容整合。" />
+  <Item Key="ToolTipSettings-Voice-IsVoicePresetChangeEnabled" Value="不使用声库预设tag时，请取消勾选。" />
+  <Item Key="ToolTipSettings-Voice-PromptString" Value="指定声库预设tag中使用的提示字符串。&#xA;※除句末记号外，全角字符有效。" />
+  <Item Key="ToolTipSettings-Voice-IsPresetTagToTextFile" Value="指定保存文本文件时是否输出声库预设。" />
+  <Item Key="ToolTipSettings-Voice-IsKansaiEnabled" Value="使用关西方言的时候请仔细检查。&#xA;关西腔也可用于词组编辑和单词编辑。" />
+
+  <Item Key="ToolTipSettings-Lang-PhraseDicIsEnabled" Value="如果不使用词组字典，请取消勾选。" />
+  <Item Key="ToolTipSettings-Lang-PhraseDicPath" Value="指定词组字典文件路径。" />
+  <Item Key="ToolTipSettings-Lang-CreateNewPhraseDic" Value="新建词组字典文件。" />
+  <Item Key="ToolTipSettings-Lang-MergePhraseDic" Value="将现在使用中的词组字典文件与已存在的词组字典文件的内容整合。" />
+  <Item Key="ToolTipSettings-Lang-WordDicIsEnabled" Value="如果不使用单词字典，请取消勾选。" />
+  <Item Key="ToolTipSettings-Lang-WordDicPath" Value="指定单词字典文件路径。" />
+  <Item Key="ToolTipSettings-Lang-CreateNewWordDic" Value="新建单词字典文件。" />
+  <Item Key="ToolTipSettings-Lang-MergeWordDic" Value="将现在使用中的单词字典文件与已存在的单词字典文件的内容整合。" />
+  <Item Key="ToolTipSettings-Lang-SymbolDicIsEnabled" Value="如果不使用停顿记号字典，请取消勾选。" />
+  <Item Key="ToolTipSettings-Lang-SymbolDicPath" Value="指定停顿记号字典文件路径。" />
+  <Item Key="ToolTipSettings-Lang-CreateNewSymbolDic" Value="新建停顿记号字典文件。" />
+  <Item Key="ToolTipSettings-Lang-MergeSymbolDic" Value="将现在使用中的停顿记号字典文件与已存在的停顿记号字典文件的内容整合。" />
+
+  <Item Key="ToolTipSettings-Lang-EnglishWordDicIsEnabled" Value="如果不使用单词(英语)字典，请取消勾选。" /><!-- 追加 -->
+  <Item Key="ToolTipSettings-Lang-EnglishWordDicPath" Value="指定单词字典(英语)文件路径。" /><!-- 追加 -->
+  <Item Key="ToolTipSettings-Lang-CreateNewEnglishWordDic" Value="新建单词字典(英语)文件。" /><!-- 追加 -->
+  <Item Key="ToolTipSettings-Lang-MergeEnglishWordDic" Value="将现在使用中的单词字典(英语)文件与已存在的单词字典(英语)文件的内容整合。" /><!-- 追加 -->
+
+  <Item Key="ToolTipSettings-Lang-ChineseWordDicIsEnabled" Value="如果不使用单词(中文)字典，请取消勾选。" />
+  <Item Key="ToolTipSettings-Lang-ChineseWordDicPath" Value="指定单词字典(中文)文件路径。" />
+  <Item Key="ToolTipSettings-Lang-CreateNewChineseWordDic" Value="新建单词字典(中文)文件。" />
+  <Item Key="ToolTipSettings-Lang-MergeChineseWordDic" Value="将现在使用中的单词字典(中文)文件与已存在的单词字典(中文)文件的内容整合。" />
+
+  <Item Key="ToolTipSettings-Text-FontFamily" Value="设置输入文本中字符的字体。" />
+  <Item Key="ToolTipSettings-Text-FontSize" Value="设置输入文本中字符的字体大小。" />
+  <Item Key="ToolTipSettings-Text-IsTextWrapping" Value="如果想要输入文本不折回显示，请取消勾选。" />
+  <Item Key="ToolTipSettings-Text-UseNewLineAsDelimiter" Value="如果将换行作为输入文本的换行，请取消勾选。" />
+
+  <Item Key="ToolTipSettings-Synthesis-BeginPause" Value="设定插入音频开头的停顿的长度。&#xA;最大值 60000&#xA;最小值 0&#xA;初始值 0" />
+  <Item Key="ToolTipSettings-Synthesis-TermPause" Value="设定插入音频末尾的停顿的长度。&#xA;最大值 60000&#xA;最小值 0&#xA;初始值 800" />
+  <Item Key="ToolTipSettings-Synthesis-UseNewLineAsDelimiter" Value="如果将换行作为输入文本的换行，请取消勾选。" />
+
+  <Item Key="ToolTipSettings-SaveWave-NoSplit" Value="不分割输入文本，保存在一个音频文本中。" />
+  <Item Key="ToolTipSettings-SaveWave-SplitPerSentence" Value="将输入文本按每条语句分开进行音频合成，将其结果保存到单独的音频文件中。" />
+  <Item Key="ToolTipSettings-SaveWave-SplitPerDelimiter" Value="将输入文本用指定的分隔符分隔，进行音频合成，将其结果保存到单独的音频文件中。" />
+  <Item Key="ToolTipSettings-SaveWave-SplitDelimiter" Value="输入分隔输入文本的分隔符。&#xA;※分隔字符串区分全角和半角。" />
+  <Item Key="ToolTipSettings-SaveWave-BeginPause" Value="设定插入音频开头的停顿的长度。&#xA;最大值 60000&#xA;最小值 0&#xA;初始值 0" />
+  <Item Key="ToolTipSettings-SaveWave-TermPause" Value="设定插入音频末尾的停顿的长度。&#xA;最大值 60000&#xA;最小值 0&#xA;初始值 800" />
+  <Item Key="ToolTipSettings-SaveWave-OutputFormatCategory" Value="选择要输出的音频文件格式。" />
+  <Item Key="ToolTipSettings-SaveWave-OutputWavFormat" Value="选择要输出的WAV格式的详细信息。" />
+  <Item Key="ToolTipSettings-SaveWave-OutputHeader" Value="是否向音频文件添加标题。" />
+  <Item Key="ToolTipSettings-SaveWave-OutputOtherFormat" Value="选择要输出的音频文件质量。" />
+  <Item Key="ToolTipSettings-SaveWave-IsTextFileCreated" Value="设定保存音频文件时是否创建文本文件。&#xA;文本文件名是将音频文件名的拓展名从&quot;.wav&quot;改成&quot;.txt&quot;来得到的。" />
+  <Item Key="ToolTipSettings-SaveWave-IsTextFileEncoding" Value="指定创建文本文件时的编码。&#xA;另外，单独保存文本文件时也适用于此设定。" />
+  <Item Key="ToolTipSettings-SaveWave-IsPhonemeFileCreated" Value="设定保存音频信息文件时是否制作音素信息文件(.lab)。&#xA;音素信息文件名是将音频文件名的扩展名从&quot;.wav&quot;改成&quot;.lab&quot;来得到的。" />
+  <Item Key="ToolTipSettings-SaveWave-IsSettingsViewVisible" Value="设置保存时，该设定画面是否每次显示。" />
+
+  <Item Key="ToolTipSettings-SaveWave-SelectPathByCommonDialog" Value="每次保存音频时，在文件选择对话框中指定保存文件夹。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathByNameingRule" Value="根据指定的命名规则自动生成文件名。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathOutDir" Value="设置保存音频的文件夹路径。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathOutDirButton" Value="在文件夹选择对话框中设置音频文件保存的文件夹。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRule" Value="指定输出文件夹路径后面的文件夹和文件名的命名规则。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleDate" Value="在命名规则中的当前光标位置插入年月日tag。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleTime" Value="在命名规则中的当前光标位置插入时分秒tag。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleVoice" Value="在命名规则中的当前光标位置插入说话者tag。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRulePreset" Value="在命名规则中的当前光标位置插入声库预设名称tag。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleText" Value="在命名规则中的当前光标位置插入文本tag。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleProject" Value="在命名规则中的当前光标位置插入工程tag。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleNumber" Value="在命名规则中的当前光标位置插入序号tag。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleTextLength" Value="指定文本字数。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleNumberDigit" Value="指定序号的长度。如果序号小于指定的长度，则填充0。&#xA;例） 数字是3的时候、1 是 001 、23 是 023 。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleNumberStart" Value="指定序号的开始数字。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleSelectPreset" Value="从预设中选择命名规则。" />
+  <Item Key="ToolTipSettings-SaveWave-SelectPathFileNamingRuleSelectPresetApply" Value="将选定预设设置为命名规则" />
+
+  <Item Key="ToolTipSettings-Others-FeatureModeSimple" Value="仅将基本功能设置为可用状态。" />
+  <Item Key="ToolTipSettings-Others-FeatureModeNormal" Value="将上级功能的一部分设为可用状态。" />
+  <Item Key="ToolTipSettings-Others-FeatureModeFull" Value="将全部功能设为可用状态。" />
+  <Item Key="ToolTipSettings-Others-IsDefaultAudioDeviceUsed" Value="如果要从默认设备更改音频输出目标，请取消选中。" />
+  <Item Key="ToolTipSettings-Others-AudioDevices" Value="选择要输出的音频设备。" />
+  <Item Key="ToolTipSettings-Others-InformationLevels" Value="选择消息显示级别。" />
+  <Item Key="ToolTipSettings-Others-IsToolTipVisible" Value="指定是否显示工具提示。" />
+  <Item Key="ToolTipSettings-Others-Themes" Value="选择窗口主题。" />
+
+  <Item Key="ToolTipSettings-Synthesize-EnableEffectExpansion" Value="拓展全局参数、声库预设、词组的音频效果值的输入范围。" />
+
+  <Item Key="ToolTipView-VoicePresetListPane" Value="切换声库预设列表的显示和隐藏。" />
+  <Item Key="ToolTipView-VoiceImagePane" Value="切换角色图像的显示和隐藏。" />
+  <Item Key="ToolTipView-TuningPane" Value="切换调音窗口的显示和隐藏。" />
+  <Item Key="ToolTipView-InitializeWindowPlacement" Value="初始化窗口大小和布局。" />
+
+  <Item Key="ToolTipTool-Option" Value="显示设定窗口。" />
+  <Item Key="ToolTipTool-InitializeUserSettings" Value="初始化应用程序的设定。" />
+
+  <Item Key="ToolTipHelp-Help" Value="显示用户菜单。" />
+  <Item Key="ToolTipHelp-Information" Value="显示通知" />
+  <Item Key="ToolTipHelp-ProductLicense" Value="显示已认证的声库列表。" />
+  <Item Key="ToolTipHelp-VersionInfo" Value="显示版本信息。" />
+
+  <Item Key="ToolTipUserDicList-Keywords" Value="用输入的关键字缩小范围。&#xA;输入多个关键字时用空格分隔。" />
+  <Item Key="ToolTipUserDicList-FindDetail" Value="设定筛选的详细条件" />
+  <Item Key="ToolTipUserDicList-Target-Text" Value="用写法作为关键字进行筛选。" />
+  <Item Key="ToolTipUserDicList-Target-Yomi" Value="用读音作为关键字进行筛选。" />
+  <Item Key="ToolTipUserDicList-Logic-And" Value="当输入多个关键字时，列出与所有关键字匹配的条目。" />
+  <Item Key="ToolTipUserDicList-Logic-Or" Value="当输入多个关键字时，列出与任一关键字匹配的条目。" />
+  <Item Key="ToolTipUserDicList-MatchPosition-Forward" Value="仅列出关键字与单词开头匹配的条目。" />
+  <Item Key="ToolTipUserDicList-MatchPosition-Partial" Value="仅列出关键字与单词部分匹配的条目。" />
+  <Item Key="ToolTipUserDicList-MatchPosition-Backward" Value="仅列出关键字与单词末尾匹配的条目。" />
+  <Item Key="ToolTipUserDicList-PageSize" Value="1页表示数量&#xA;最小值 1&#xA;最大值 60000" />
+  <Item Key="ToolTipUserDicList-Initial-All" Value="不使用首字母缩小范围，全部显示出来。" />
+  <Item Key="ToolTipUserDicList-Initial-A" Value="仅显示读音首字母为ア行的内容。" />
+  <Item Key="ToolTipUserDicList-Initial-Ka" Value="仅显示读音首字母为をカ行的内容。" />
+  <Item Key="ToolTipUserDicList-Initial-Sa" Value="仅显示读音首字母为をサ行的内容。" />
+  <Item Key="ToolTipUserDicList-Initial-Ta" Value="仅显示读音首字母为をタ行的内容。" />
+  <Item Key="ToolTipUserDicList-Initial-Na" Value="仅显示读音首字母为をナ行的内容。" />
+  <Item Key="ToolTipUserDicList-Initial-Ha" Value="仅显示读音首字母为をハ行的内容。" />
+  <Item Key="ToolTipUserDicList-Initial-Ma" Value="仅显示读音首字母为をマ行的内容。" />
+  <Item Key="ToolTipUserDicList-Initial-Ya" Value="仅显示读音首字母为をヤ行的内容。" />
+  <Item Key="ToolTipUserDicList-Initial-Ra" Value="仅显示读音首字母为をラ行的内容。" />
+  <Item Key="ToolTipUserDicList-Initial-Wa" Value="仅显示读音首字母为をワ行的内容。" />
+  <Item Key="ToolTipUserDicList-MoveFirstPage" Value="转到第一页" />
+  <Item Key="ToolTipUserDicList-MovePreviousPage" Value="转到上一页" />
+  <Item Key="ToolTipUserDicList-CurrentPageNumber" Value="显示当前的页码。&#xA;输入页码后，将移动到该页面。" />
+  <Item Key="ToolTipUserDicList-PagesCount" Value="显示页面总数。" />
+  <Item Key="ToolTipUserDicList-MoveNextPage" Value="转到下一页" />
+  <Item Key="ToolTipUserDicList-MoveLastPage" Value="转到最后一页。" />
+  <Item Key="ToolTipUserDicList-List" Value="用户字典列表&#xA;显示包含在用户字典中的条目。" />
+  <Item Key="ToolTipUserDicList-Edit" Value="开始编辑选择的字典条目。" />
+  <Item Key="ToolTipUserDicList-Remove" Value="删除选择的字典条目。" />
+  <Item Key="ToolTipUserDicList-Cancel" Value="关闭对话框" />
+
+  <Item Key="ToolTipVoicePreset-CreateNew-VoiceList" Value="声库列表&#xA;请选择分配给声库预设的声库。" />
+  <Item Key="ToolTipVoicePreset-CreateNew-PresetName" Value="请输入声库预设的名称。" />
+  <Item Key="ToolTipVoicePreset-CreateNew-Ok" Value="创建声库预设并关闭对话框。" />
+  <Item Key="ToolTipVoicePreset-CreateNew-Cancel" Value="关闭对话框而不创建声库预设。" />
+
+  <Item Key="ToolTipSymbolEdit-Text" Value="停顿记号的写法&#xA;除句末符号外，输入范围在全角30字以内。" />
+  <Item Key="ToolTipSymbolEdit-PauseLength" Value="停顿记号的长度&#xA;最大值 5000&#xA;最小值 80&#xA;初始值 80" />
+  <Item Key="ToolTipSymbolEdit-Ok" Value="注册停顿记号并关闭对话框。" />
+  <Item Key="ToolTipSymbolEdit-Cancel" Value="不注册停顿记号并关闭对话框。" />
+
+  <Item Key="ToolTipVoiceList-List" Value="声库列表&#xA;请选择分配给声库预设的声库。" />
+  <Item Key="ToolTipVoiceList-Ok" Value="指定选定的声库并关闭对话框。" />
+  <Item Key="ToolTipVoiceList-Cancel" Value="关闭对话框而不指定声库预设。" />
+
+  <Item Key="ToolTipVoiceListFilter-List" Value="声库列表&#xA;请选择在声库预设列表中显示的声库。" />
+  <Item Key="ToolTipVoiceListFilter-SelectAll" Value="全选所有的声库" />
+  <Item Key="ToolTipVoiceListFilter-UnselectAll" Value="全部的声库变成非选择状态。" />
+  <Item Key="ToolTipVoiceListFilter-Ok" Value="设置声库的过滤器并关闭对话框。" />
+  <Item Key="ToolTipVoiceListFilter-Cancel" Value="关闭对话框而不更改声库过滤器。" />
+
+  <Item Key="ToolTipProsodyInjection-MergedVoiceList" Value="请选择要融合的声库。" />
+  <Item Key="ToolTipProsodyInjection-BasePitchList" Value="请选择作为音高基准的声库。" />
+  <Item Key="ToolTipProsodyInjection-Reset" Value="解除融合设置。" />
+  <Item Key="ToolTipProsodyInjection-Ok" Value="应用所选的融合设置并关闭对话框。" />
+  <Item Key="ToolTipProsodyInjection-Cancel" Value="关闭对话框而不应用融合设置的更改。" />
+
+  <Item Key="ToolTipHinshiList-List" Value="词性列表&#xA;请参考下面的说明选择单词的词性。&#xA;※词性选择不恰当的情况下，有可能不能如期待的那样反映单词的注册结果。" />
+  <Item Key="ToolTipHinshiList-Ok" Value="改变编辑中的单词的词性，之后关闭对话框。" />
+  <Item Key="ToolTipHinshiList-Cancel" Value="不改变词性而关闭对话框。" />
+
+  <Item Key="ToolTipProductList-List" Value="已认证声库列表&#xA;显示已认证的声库。&#xA;体验版和过期的声库不显示。" />
+  <Item Key="ToolTipProductList-Ok" Value="关闭“已认证产品声库列表”对话框。" />
+
+  <Item Key="ToolTipVersionInfo-ComponentList" Value="组件列表&#xA;显示程序中使用的组件信息。" />
+  <Item Key="ToolTipVersionInfo-ComponentLicense" Value="显示组件许可信息。" />
+  <Item Key="ToolTipVersionInfo-Copy" Value="将版本信息复制到剪贴板。" />
+  <Item Key="ToolTipVersionInfo-Ok" Value="关闭“版本信息”对话框。" />
+
+  <Item Key="ToolTipComponentLicense-Ok" Value="关闭组件许可信息对话框。" />
+
+  <Item Key="ToolTipCharacter-SleepMode" Value="进行睡眠模式的设定。" />
+
+  <Item Key="ToolTipSleepMode-Timeout" Value="选择进入睡眠状态所需的时间。" />
+  <Item Key="ToolTipSleepMode-Ok" Value="保存设置并关闭对话框。" />
+  <Item Key="ToolTipSleepMode-Cancel" Value="关闭对话框而不保存设置。" />
+
+  <Item Key="ToolTipStyle" Value="情感系统：{0}&#xA;最大值 1.00&#xA;最小值 0.00&#xA;初始值 0.00" />
+
+
+</LanguageResource>

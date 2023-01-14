@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Languages -->
+  <Item Key="LanguageName" Value="中文" />
+  <Item Key="LanguageNameEnglish" Value="Chinese" />
+
+  <Item Key="MessageErrorConnectionFailed" Value="与主机程序连接失败。" />
+  <Item Key="MessageErrorUnknownServiceName" Value="指定了不存在的服务名。" />
+  <Item Key="MessageErrorApiNotInitialized" Value="未初始化API。" />
+  <Item Key="MessageErrorNotConnected" Value="未建立与主机程序的连接。" />
+  <Item Key="MessageErrorSearchHostFailed" Value="无法搜索到主机。" />
+  <Item Key="MessageErrorHostNotFound" Value="找不到主机。" />
+  <Item Key="MessageErrorStartHostFailed" Value="主机启动失败。" />
+
+</LanguageResource>

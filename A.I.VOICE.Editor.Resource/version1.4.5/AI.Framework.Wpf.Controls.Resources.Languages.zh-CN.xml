@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LanguageResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Languages -->
+  <Item Key="LanguageName" Value="中文" />
+  <Item Key="LanguageNameEnglish" Value="Chinese" />
+
+
+  <!-- LinearFader -->
+
+  <Item Key="LinearFaderContextDefault" Value="设置默认值(_D)" />
+
+
+  <!-- KeyBox -->
+
+  <Item Key="KeyBoxContextPaste" Value="粘贴(_P)" />
+
+
+  <!-- PathEntry -->
+
+  <Item Key="PathEntryReference" Value="浏览..." />
+
+
+  <!-- Message -->
+
+  <Item Key="MessageExceptionHostNotExists" Value="弹出式主机不存在。" />
+
+
+</LanguageResource>

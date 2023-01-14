@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LanguageResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Languages -->
+  <Item Key="LanguageName" Value="中文" />
+  <Item Key="LanguageNameEnglish" Value="Chinese" />
+
+
+  <!-- General -->
+
+  <Item Key="Information" Value="信息" />
+  <Item Key="Warning" Value="警告" />
+  <Item Key="Error" Value="错误" />
+  <Item Key="Confirm" Value="确认" />
+  <Item Key="SameForAll" Value="以后也适用相同的选择" />
+
+
+  <Item Key="InformationLevelTerse" Value="简洁" />
+  <Item Key="InformationLevelVerbose" Value="冗长" />
+
+
+  <Item Key="AudioFormatAacQuarityHigh" Value="高品质" />
+  <Item Key="AudioFormatAacQuarityMiddle" Value="中品质" />
+  <Item Key="AudioFormatAacQuarityLow" Value="低品质" />
+
+  <Item Key="AudioFormatMp3QuarityHigh" Value="高品质" />
+  <Item Key="AudioFormatMp3QuarityMiddle" Value="中品质" />
+  <Item Key="AudioFormatMp3QuarityLow" Value="低品质" />
+
+  <Item Key="AudioFormatWmaQuarityHigh" Value="高品质" />
+  <Item Key="AudioFormatWmaQuarityMiddle" Value="中品质" />
+  <Item Key="AudioFormatWmaQuarityLow" Value="低品质" />
+
+  
+  <!-- VersionInfoWindow -->
+  
+  <Item Key="VersionInfoWindowTitle" Value="版本信息" />
+  <Item Key="VersionInfoVersion" Value="Version " />
+  <Item Key="VersionInfoDistributor" Value="发售商: " />
+  <Item Key="VersionInfoDeveloper" Value="开发商: " />
+  <Item Key="VersionInfoComponentInfo" Value="组件信息" />
+  <Item Key="VersionInfoListName" Value="组件名" />
+  <Item Key="VersionInfoListVersion" Value="版本" />
+  <Item Key="VersionInfoListLicense" Value="许可证" />
+  <Item Key="VersionInfoListShowLicenseText" Value="显示" />
+  <Item Key="VersionInfoCopy" Value="复制" />
+  <Item Key="VersionInfoLog" Value="消息" />
+  <Item Key="VersionInfoOk" Value="OK" />
+
+
+  <!-- LicenseTextWindow -->
+
+  <Item Key="LicenseTextWindowTitle" Value=" 许可条款" />
+  <Item Key="LicenseTextOk" Value="OK" />
+
+
+  <!-- ErrorInfoWindow -->
+
+  <Item Key="ErrorInfoWindowTitle" Value=" 错误信息" />
+  <Item Key="ErrorInfoCopy" Value="复制" />
+  <Item Key="ErrorInfoOk" Value="OK" />
+
+  <Item Key="ErrorInfoUnknownError" Value="由于发生原因不明的错误而退出应用程序。" />
+  <Item Key="ErrorInfoContactSupport" Value="如果问题未解决，请在support窗口联系。" />
+  <Item Key="ErrorInfoTitle" Value="【错误信息】 " />
+
+
+  <!-- Message -->
+
+  <Item Key="MessageFailedToReadCommandLineArgs" Value="无法读取命令行参数。" />
+  <Item Key="MessageMultiProcessNotApproved" Value="此应用程序不能同时启动多个进程。" />
+  <Item Key="MessageIncorrectTerminationLastTime" Value="上一次使用时，应用程序可能未成功退出。" />
+  <Item Key="MessageLogoutAndRestartApplication" Value="请先登出当前账户，然后重新启动应用程序。" />
+  <Item Key="MessageFailedToInitializeApplication" Value="应用程序初始化失败。" />
+
+  <Item Key="MessageInitializationInterrupted" Value="初始化过程已中断。" />
+  <Item Key="MessageFailedToInitializeLanguageDictionary" Value="{0}的语言字典初始化失败" />
+  <Item Key="MessageLanguageDictionaryNotFound" Value="找不到语言字典。" /><!-- 追加 -->
+  <Item Key="MessageFailedToReadAsLanguageDictionary" Value="无法将 {0} 作为语言字典载入" />
+  <Item Key="MessageFailedToReadAsVoiceDictionary" Value="无法将 {0} 作为声库字典载入 " />
+  <Item Key="MessageLicenseActivationFailed" Value="许可证认证失败" />
+  <Item Key="MessageFailedToInitializeVoice" Value="声库 '{0}' 的初始化失败" />
+  <Item Key="MessagePreviousProcessNotCompleted" Value="上次合成处理未完成。" />
+  <Item Key="MessageAudioDeviceNotAvailable" Value="音频设备不可用，无法播放音频。" />
+  <Item Key="MessageNGWordFound" Value="检测到NG字。" />
+  <Item Key="MessageCantSpeechFollowingWords" Value="以下单词不能朗读。" />
+  <Item Key="MessageUnableToUseVoice" Value="无法使用 {0} 作为说话者。" />
+  <Item Key="MessageFailedToActivateAppLicense" Value="应用的许可证认证失败" />
+  <Item Key="MessageFailedToGetAppFeature" Value="无法获取应用程序的要素。" />
+  <Item Key="MessageAILicenseIncorrectProductID" Value="产品标识不正确。" />
+
+  <Item Key="LabelFailedToGetLicenseDate" Value="取得失败" />
+
+  <Item Key="MessageDemoSound" Value="这是演示音频" />
+
+
+  <!-- Language Notation -->
+  <Item Key="UnknownLanguage" Value="不确定的语言" />
+  <Item Key="JapaneseStandardDialect" Value="标准语(日语)" />
+  <Item Key="JapaneseKansaiDialect" Value="关西腔" />
+  <Item Key="AmericanEnglish" Value="英文" />
+  <Item Key="Chinese" Value="中文" />
+
+</LanguageResource>

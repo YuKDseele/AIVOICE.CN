@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LanguageResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Languages -->
+  <Item Key="LanguageName" Value="中文" />
+  <Item Key="LanguageNameEnglish" Value="Chinese" />
+
+
+  <!-- Message -->
+
+  <Item Key="MessageExceptionLicenseLibraryNotInitialized" Value="未初始化许可证验证库。" />
+  <Item Key="MessageExceptionLicenseLibraryAlreadyInitialized" Value="许可证验证库已初始化。" />
+
+  <Item Key="MessageLicensingResultSuccess" Value="成功" />
+  <Item Key="MessageLicensingResultInvalidAddress" Value="" />
+  <Item Key="MessageLicensingResultInvalidFeature" Value="" />
+  <Item Key="MessageLicensingResultNotEnoughMemory" Value="" />
+  <Item Key="MessageLicensingResultTooManyOpenFeatures" Value="" />
+  <Item Key="MessageLicensingResultAccessDenied" Value="" />
+  <Item Key="MessageLicensingResultIncompatibleFeature" Value="" />
+  <Item Key="MessageLicensingResultContainerNotFound" Value="找不到包含临时许可证的许可证文件。" />
+  <Item Key="MessageLicensingResultHaspNotFound" Value="找不到许可证。" />
+  <Item Key="MessageLicensingResultBufferTooShort" Value="" />
+  <Item Key="MessageLicensingResultInvalidHandle" Value="未启用产品或功能。" />
+  <Item Key="MessageLicensingResultInvalidFile" Value="" />
+  <Item Key="MessageLicensingResultDriverTooOld" Value="" />
+  <Item Key="MessageLicensingResultNoTime" Value="" />
+  <Item Key="MessageLicensingResultSystemError" Value="" />
+  <Item Key="MessageLicensingResultDriverNotFound" Value="" />
+  <Item Key="MessageLicensingResultInvalidFormat" Value="" />
+  <Item Key="MessageLicensingResultRequestNotSupported" Value="" />
+  <Item Key="MessageLicensingResultInvalidUpdateObject" Value="" />
+  <Item Key="MessageLicensingResultKeyIdNotFound" Value="" />
+  <Item Key="MessageLicensingResultInvalidUpdateData" Value="许可证不正确。" />
+  <Item Key="MessageLicensingResultUpdateNotSupported" Value="" />
+  <Item Key="MessageLicensingResultInvalidUpdateCounter" Value="" />
+  <Item Key="MessageLicensingResultInvalidVendorCode" Value="" />
+  <Item Key="MessageLicensingResultEncryptionNotSupported" Value="" />
+  <Item Key="MessageLicensingResultInvalidTime" Value="" />
+  <Item Key="MessageLicensingResultNoBatteryPower" Value="" />
+  <Item Key="MessageLicensingResultUpdateNoAckSpace" Value="" />
+  <Item Key="MessageLicensingResultTerminalServiceDetected" Value="检测到远程连接。&#xA;&#xA;不允许远程连接。" />
+  <Item Key="MessageLicensingResultFeatureNotImplemented" Value="" />
+  <Item Key="MessageLicensingResultUnknownAlgorithm" Value="" />
+  <Item Key="MessageLicensingResultInvalidSignature" Value="与许可证相关的数据不匹配。" />
+  <Item Key="MessageLicensingResultFeatureNotFound" Value="找不到产品或功能许可证。" />
+  <Item Key="MessageLicensingResultNoLog" Value="访问日志未启用。" />
+  <Item Key="MessageLicensingResultLocalCommErr" Value="许可证认证服务不可用。&#xA;您的计算机可能未安装或禁用了许可证认证服务。" />
+  <Item Key="MessageLicensingResultUnknownVcode" Value="未知的供应商代码。" />
+  <Item Key="MessageLicensingResultInvalidXmlSpec" Value="" />
+  <Item Key="MessageLicensingResultInvalidXmlScope" Value="" />
+  <Item Key="MessageLicensingResultTooManyKeys" Value="验证密钥的连接数已达到最大值。" />
+  <Item Key="MessageLicensingResultTooManyUsers" Value="用户连接数已达到最大值。" />
+  <Item Key="MessageLicensingResultBrokenSession" Value="无法获取会话信息。许可证可能已禁用。" />
+  <Item Key="MessageLicensingResultRemoteCommErr" Value="与远程环境发生通信错误。" />
+  <Item Key="MessageLicensingResultFeatureExpired" Value="产品或功能已过期。" />
+  <Item Key="MessageLicensingResultTooOldLM" Value="" />
+  <Item Key="MessageLicensingResultDeviceError" Value="发生安全存储I/O错误或USB密钥访问错误。" />
+  <Item Key="MessageLicensingResultUpdateBlocked" Value="" />
+  <Item Key="MessageLicensingResultTimeError" Value="" />
+  <Item Key="MessageLicensingResultSecureChannelError" Value="" />
+  <Item Key="MessageLicensingResultCorruptStorage" Value="" />
+  <Item Key="MessageLicensingResultVendorLibNotFound" Value="" />
+  <Item Key="MessageLicensingResultInvalidVendorLib" Value="" />
+  <Item Key="MessageLicensingResultEmptyScopeResults" Value="在搜索范围中找不到许可证。" />
+  <Item Key="MessageLicensingResultVMDetected" Value="" />
+  <Item Key="MessageLicensingResultHardwareModified" Value="" />
+  <Item Key="MessageLicensingResultUserDenied" Value="" />
+  <Item Key="MessageLicensingResultUpdateTooOld" Value="" />
+  <Item Key="MessageLicensingResultUpdateTooNew" Value="" />
+  <Item Key="MessageLicensingResultVendorlibOld" Value="" />
+  <Item Key="MessageLicensingResultUploadError" Value="" />
+  <Item Key="MessageLicensingResultInvalidRecipient" Value="" />
+  <Item Key="MessageLicensingResultInvalidDetachAction" Value="" />
+  <Item Key="MessageLicensingResultTooManyProducts" Value="" />
+  <Item Key="MessageLicensingResultInvalidProduct" Value="" />
+  <Item Key="MessageLicensingResultUnknownRecipient" Value="" />
+  <Item Key="MessageLicensingResultInvalidDuration" Value="" />
+  <Item Key="MessageLicensingResultCloneDetected" Value="许可证已被复制。" />
+  <Item Key="MessageLicensingResultUpdateAlreadyAdded" Value="许可证已经适用。" />
+  <Item Key="MessageLicensingResultHaspInactive" Value="" />
+  <Item Key="MessageLicensingResultNoDetachableFeature" Value="" />
+  <Item Key="MessageLicensingResultTooManyHosts" Value="" />
+  <Item Key="MessageLicensingResultRehostNotAllowed" Value="" />
+  <Item Key="MessageLicensingResultLicenseRehosted" Value="" />
+  <Item Key="MessageLicensingResultRehostAlreadyApplied" Value="" />
+  <Item Key="MessageLicensingResultCannotReadFile" Value="" />
+
+  <Item Key="MessageLicensingResultNoApiDylib" Value="找不到许可证验证所需的DLL[1]。" />
+  <Item Key="MessageLicensingResultInvApiDylib" Value="找不到许可证验证所需的DLL[2]。" />
+
+  <Item Key="MessageLicensingResultInvalidObject" Value="" />
+  <Item Key="MessageLicensingResultInvalidParameter" Value="指定的参数无效。" />
+  <Item Key="MessageLicensingResultAlreadyLoggedIn" Value="产品或功能已启用。" />
+  <Item Key="MessageLicensingResultAlreadyLoggedOut" Value="产品或功能已禁用。" />
+
+  <Item Key="MessageLicensingResultOperationFailed" Value="" />
+
+  <Item Key="MessageLicensingResultNoExtensionBlock" Value="" />
+
+  <Item Key="MessageLicensingResultInvalidPortType" Value="" />
+  <Item Key="MessageLicensingResultInvalidPort" Value="" />
+  <Item Key="MessageLicensingResultHaspDotNetDllBroken" Value="找不到许可证验证所需的DLL或文件损坏。" />
+
+  <Item Key="MessageLicensingResultNotImplemented" Value="" />
+  <Item Key="MessageLicensingResultInternalError" Value="发生内部错误。" />
+
+  <Item Key="MessageLicensingResultIllegalUriFormat" Value="URI格式不正确。" />
+  <Item Key="MessageLicensingResultRemoteConnectFailed" Value="无法连接到远程服务器。" />
+  <Item Key="MessageLicensingResultHttpStatusError" Value="远程服务器没有返回正确的响应。" />
+  <Item Key="MessageLicensingResultGetResponseFailed" Value="无法从远程服务器接收响应。" />
+  <Item Key="MessageLicensingResultGetContentFailed" Value="无法获取远程内容。" />
+  <Item Key="MessageLicensingResultRemoteNotLoggedIn" Value="未登录远程服务器。" />
+  <Item Key="MessageLicensingResultLoginRestricted" Value="输入的激活码无效。" />
+  <Item Key="MessageLicensingResultProductKeyNotExists" Value="激活码不正确。" />
+  <Item Key="MessageLicensingResultEntitlementValidityPeriodExpired" Value="激活码已过期。" />
+  <Item Key="MessageLicensingResultNoRemaningActivation" Value="已达到激活次数上限。" />
+  <Item Key="MessageLicensingResultTrustFailure" Value="服务器证书验证失败。" />
+  <Item Key="MessageLicensingResultInvalidTargetId" Value="机器固有信息不正确。" />
+  <Item Key="MessageLicensingResultLoginSessionFailed" Value="无法与远程服务器建立会话。" />
+  <Item Key="MessageLicensingResultLgInternalError" Value="远程服务器发生内部错误。" />
+  <Item Key="MessageLicensingResultMasterKeyAccessFailed" Value="无法连接到主密钥。" />
+  <Item Key="MessageLicensingResultRemoteUnkownError" Value="在远程通信中发生了原因不明的错误。" />
+
+  <Item Key="MessageLicensingResultUnknownError" Value="发生原因不明的错误。" />
+  <Item Key="MessageLicensingResultUnknownExceptionError" Value="发生了原因不明的异常。" />
+  <Item Key="MessageLicensingResultFeatureIDOutOfRange" Value="产品或功能标识超出范围。" />
+  <Item Key="MessageLicensingResultIllegalProductKeyFormat" Value="激活码格式不正确。" />
+  <Item Key="MessageLicensingResultIllegalFingerprintFormat" Value="机器固有信息格式不正确。" />
+  <Item Key="MessageLicensingResultDefectiveFingerprint" Value="机器固有信息缺失。" />
+
+</LanguageResource>
