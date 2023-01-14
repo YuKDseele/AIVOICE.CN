@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LanguageResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Languages -->
+  <Item Key="LanguageName" Value="中文" />
+  <Item Key="LanguageNameEnglish" Value="Chinese" />
+
+
+  <!-- General -->
+
+  <Item Key="Confirm" Value="确认" />
+
+
+  <!-- EditPauseLength Form -->
+
+  <Item Key="EditPauseLengthWindowTitle" Value="停顿长度编辑" />
+  <Item Key="EditPauseLengthRange" Value="（80～30000[ms]）" />
+  <Item Key="EditPauseLengthYomiOk" Value="OK" />
+  <Item Key="EditPauseLengthCancel" Value="取消" />
+
+
+  <!-- EditYomi Form -->
+
+  <Item Key="EditYomiWindowTitle" Value="读音编辑" />
+  <Item Key="EditYomiOk" Value="OK" />
+  <Item Key="EditYomiCancel" Value="取消" />
+
+
+  <!-- Message -->
+
+  <Item Key="TuningContextMenuUndo" Value="撤销(&amp;U)" />
+  <Item Key="TuningContextMenuRedo" Value="重做(&amp;R)" />
+  <Item Key="TuningContextMenuEditYomi" Value="读音编辑(&amp;Y)" />
+  <Item Key="TuningContextMenuJoinAccentWord" Value="将音节组合(&amp;J)" />
+  <Item Key="TuningContextMenuSplitAccentWord" Value="将音节分割(&amp;S)" />
+  <Item Key="TuningContextMenuSetDevoiced" Value="无声化(&amp;D)" />
+  <Item Key="TuningContextMenuSetVoiced" Value="取消无声化(&amp;V)" />
+  <Item Key="TuningContextMenuSetAuto" Value="自动进行无声化(&amp;A)" />
+  <Item Key="TuningContextMenuRemoveAccentWord" Value="删除音节(&amp;R)" />
+  <Item Key="TuningContextMenuInsertShortPause" Value="插入短停顿(&amp;S)" />
+  <Item Key="TuningContextMenuInsertLongPause" Value="长度长停顿(&amp;L)" />
+  <Item Key="TuningContextMenuInsertArbitraryLengthPause" Value="插入任意长停顿(&amp;A)" />
+  <Item Key="TuningContextMenuRemovePause" Value="删除停顿(&amp;D)" />
+  <Item Key="TuningContextMenuSetDefaultEffectValue" Value="设置默认值(&amp;D)" />
+  <Item Key="TuningContextMenuRemoveEffectValue" Value="删除设置值(&amp;R)" />
+  <Item Key="TuningContextMenuSetDefaultEffectValueAll" Value="删除全部音节的设置值(&amp;A)" />
+  <Item Key="MessageTuningOnlyFullWidthKatakana" Value="请用全角片假名输入读音。" />
+  <Item Key="MessageInputCheckTitle" Value="检查输入" />
+  <Item Key="MessageSetDefaultEffectValueAllConfirm" Value="是否要删除所有音节的设置值？" />
+
+
+</LanguageResource>
