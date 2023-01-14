@@ -11,4 +11,4 @@
   →若之前使用英文UI,请选择[Tool]->[Preferences]->[Language]，将语言设置切换为Chinese(中文)后，点击"OK",然后重新启动。
   
 ## 许可协议
-翻译文本及编译结果（DLL）文件以[CC BY-NC-SA 4.0](https://github.com/YuKDseele/AIVOICE.CN/AIVOICE.CN.LICENSE.txt)协议提供。（使用前必读）
+翻译文本及编译结果（DLL）文件以[CC BY-NC-SA 4.0](https://github.com/YuKDseele/AIVOICE.CN/blob/main/AIVOICE.CN.LICENSE.txt)协议提供。（使用前必读）
