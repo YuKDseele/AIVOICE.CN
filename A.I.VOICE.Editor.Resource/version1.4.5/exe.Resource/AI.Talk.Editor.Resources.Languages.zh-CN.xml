@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LanguageResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Languages -->
+  <Item Key="LanguageName" Value="中文" />
+  <Item Key="LanguageNameEnglish" Value="Chinese" />
+
+
+  <Item Key="ProductName" Value="A.I.VOICE Editor" />
+  <Item Key="CompanyName" Value="株式会社エーアイ" />
+
+  <!-- Themes -->
+
+  <Item Key="ThemeSimple" Value="简约" />
+  <Item Key="ThemeDark" Value="黑色" />
+
+</LanguageResource>
